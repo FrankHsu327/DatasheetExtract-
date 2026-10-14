@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datasheet-extractor"
+version = "0.1.0"
+description = "Datasheet PDF to component JSON (Docling-based) with coverage tracking and cross-check"
+requires-python = ">=3.10"
+dependencies = ["docling-core>=2.100", "pdfplumber>=0.11", "PyYAML>=6.0", "jsonschema>=4.20", "Pillow>=10.0"]
+
+[project.optional-dependencies]
+convert = ["docling>=2.138"]
+dev = ["pytest>=8.0", "reportlab>=4.0"]
+
+[project.scripts]
+datasheet-extractor = "datasheet_extractor.cli:main"
+
+[tool.setuptools]
+packages = ["datasheet_extractor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

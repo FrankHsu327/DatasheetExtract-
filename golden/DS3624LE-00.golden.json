@@ -1,0 +1,316 @@
+{
+ "datasheet": "DS3624LE-00.pdf",
+ "part": "Richtek RT3624LE",
+ "source": "Electrical Characteristics table, pages 8-9, hand-transcribed from rendered page images (not from any tool output). Abs Max / Recommended Operating are dotted lists, not tables, so they are not included.",
+ "parameters": [
+  {
+   "symbol": "VCC",
+   "min": "4.5",
+   "typ": "5",
+   "max": "5.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "IVCC",
+   "conditions": "VRON = H, not switching",
+   "typ": "14",
+   "unit": "mA"
+  },
+  {
+   "symbol": "IVCC_PS4",
+   "conditions": "VRON = H, not switching",
+   "typ": "85",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ISHDN",
+   "conditions": "VRON = L",
+   "max": "15",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ADC",
+   "conditions": "RL = 47kΩ",
+   "min": "70",
+   "unit": "dB"
+  },
+  {
+   "symbol": "GBW",
+   "conditions": "CLOAD = 5pF",
+   "typ": "10",
+   "unit": "MHz"
+  },
+  {
+   "symbol": "SREA",
+   "conditions": "CLOAD = 10pF (Gain = -4, Rf = 47kΩ, VOUT = 0.5V to 3V)",
+   "typ": "5",
+   "unit": "V/µs"
+  },
+  {
+   "symbol": "VCOMP",
+   "conditions": "RL = 47kΩ",
+   "min": "0.3",
+   "max": "3.6",
+   "unit": "V"
+  },
+  {
+   "symbol": "IOUTEA",
+   "conditions": "VCOMP = 2V",
+   "typ": "5",
+   "unit": "mA"
+  },
+  {
+   "symbol": "RISENxP",
+   "min": "1",
+   "unit": "MΩ"
+  },
+  {
+   "symbol": "VCSIN",
+   "min": "-10",
+   "max": "80",
+   "unit": "mV"
+  },
+  {
+   "symbol": "AMIRROR",
+   "min": "0.97",
+   "typ": "1",
+   "max": "1.03",
+   "unit": "A/A"
+  },
+  {
+   "symbol": "tON",
+   "conditions": "VIN = 19V, VID = 0.9V, kTON = 1.36",
+   "typ": "93",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tOFF",
+   "conditions": "VID = 1V under PS1 condition",
+   "typ": "130",
+   "max": "300",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tON(MIN)",
+   "typ": "50",
+   "unit": "ns"
+  },
+  {
+   "symbol": "VUVLO,rise",
+   "conditions": "Rising edge",
+   "min": "4.1",
+   "max": "4.45",
+   "unit": "V"
+  },
+  {
+   "symbol": "VUVLO",
+   "conditions": "Falling edge",
+   "min": "3.9",
+   "max": "4.2",
+   "unit": "V"
+  },
+  {
+   "symbol": "ΔVUVLO",
+   "conditions": "Rising edge hysteresis",
+   "min": "100",
+   "typ": "170",
+   "max": "250",
+   "unit": "mV"
+  },
+  {
+   "symbol": "VUV",
+   "conditions": "Respect to VID voltage",
+   "min": "-680",
+   "typ": "-650",
+   "max": "-620",
+   "unit": "mV"
+  },
+  {
+   "symbol": "VIH",
+   "conditions": "VRON threshold",
+   "min": "0.7",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIL",
+   "conditions": "VRON threshold",
+   "max": "0.3",
+   "unit": "V"
+  },
+  {
+   "symbol": "VVR_READY",
+   "conditions": "IVR_READY = 10mA",
+   "max": "0.13",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIH",
+   "conditions": "VCLK, VDIO",
+   "min": "0.65",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIL",
+   "conditions": "VCLK, VDIO",
+   "max": "0.45",
+   "unit": "V"
+  },
+  {
+   "symbol": "VVDIO",
+   "conditions": "IVDIO = 10mA",
+   "max": "0.13",
+   "unit": "V"
+  },
+  {
+   "symbol": "ILEAK_OUT",
+   "min": "-1",
+   "max": "1",
+   "unit": "µA"
+  },
+  {
+   "symbol": "VIH",
+   "conditions": "ANS_EN",
+   "min": "VCC - 0.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIL",
+   "conditions": "ANS_EN",
+   "max": "1",
+   "unit": "V"
+  }
+ ],
+ "figures": [
+  {
+   "page": 6,
+   "label": "Figure 1",
+   "caption": "Figure 1. G-NAVPTM Behavior Waveform"
+  },
+  {
+   "page": 17,
+   "label": "Figure 2",
+   "caption": "Figure 2. Typical Timing of Controller Power-ON"
+  },
+  {
+   "page": 18,
+   "label": "Figure 3",
+   "caption": "Figure 3. 3-Phases Operation Setting"
+  },
+  {
+   "page": 18,
+   "label": "Figure 4",
+   "caption": "Figure 4. Operating Mechanism for SETx"
+  },
+  {
+   "page": 31,
+   "label": "Figure 5",
+   "caption": "Figure 5. Multi-Function Pin Setting Mechanism for"
+  },
+  {
+   "page": 31,
+   "label": "Figure 6",
+   "caption": "Figure 6. PSYS meter measures system input current"
+  },
+  {
+   "page": 32,
+   "label": "Figure 7",
+   "caption": "Figure 7. Zero Load-line without AC-droop Control"
+  },
+  {
+   "page": 33,
+   "label": "Figure 8",
+   "caption": "Figure 8. Zero Load-line with AC-droop Control"
+  },
+  {
+   "page": 34,
+   "label": "Figure 9",
+   "caption": "Figure 9. Inductor DCR Current Sensing Method for"
+  },
+  {
+   "page": 34,
+   "label": "Figure 10",
+   "caption": "Figure 10. Inductor DCR Current Sensing Method for"
+  },
+  {
+   "page": 34,
+   "label": "Figure 11",
+   "caption": "Figure 11. All Kinds of RC Network Time Constant"
+  },
+  {
+   "page": 35,
+   "label": "Figure 12",
+   "caption": "Figure 12. Total Current Sense Method"
+  },
+  {
+   "page": 36,
+   "label": "Figure 13",
+   "caption": "Figure 13. Load-line (Droop)"
+  },
+  {
+   "page": 36,
+   "label": "Figure 14",
+   "caption": "Figure 14. Voltage Loop and Current Loop for Loadline"
+  },
+  {
+   "page": 37,
+   "label": "Figure 15",
+   "caption": "Figure 15. Droop Effect in VID Transition"
+  },
+  {
+   "page": 37,
+   "label": "Figure 16",
+   "caption": "Figure 16. DVID Compensation"
+  },
+  {
+   "page": 38,
+   "label": "Figure 17",
+   "caption": "Figure 17. Type I Compensator"
+  },
+  {
+   "page": 38,
+   "label": "Figure 18",
+   "caption": "Figure 18. Remote Sensing Circuit"
+  },
+  {
+   "page": 40,
+   "label": "Figure 19",
+   "caption": "Figure 19. Adaptive Quick Response Mechanism"
+  },
+  {
+   "page": 41,
+   "label": "Figure 20",
+   "caption": "Figure 20. Undershoot Suppression Behavior in Multi Phase"
+  },
+  {
+   "page": 42,
+   "label": "Figure 21",
+   "caption": "Figure 21. Undershoot Suppression Behavior in Single Phase"
+  },
+  {
+   "page": 43,
+   "label": "Figure 22",
+   "caption": "Figure 22. SUM OC Protection Mechanism"
+  },
+  {
+   "page": 44,
+   "label": "Figure 23",
+   "caption": "Figure 23. Over-Voltage Protection Mechanism for DVID up from 0V"
+  },
+  {
+   "page": 45,
+   "label": "Figure 24",
+   "caption": "Figure 24. Over-Voltage Protection Mechanism"
+  },
+  {
+   "page": 45,
+   "label": "Figure 25",
+   "caption": "Figure 25."
+  },
+  {
+   "page": 46,
+   "label": "Figure 26",
+   "caption": "Figure 26. Derating Curve of Maximum Power"
+  }
+ ],
+ "figures_source": "pypdfium2 text layer, 'Figure N' caption lines (scripts/make_golden_figures.py), reviewed"
+}

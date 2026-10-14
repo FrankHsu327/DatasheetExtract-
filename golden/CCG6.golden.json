@@ -1,0 +1,286 @@
+{
+ "datasheet": "infineon-ez-pd-ccg6-cfp-usb-c-power-delivery-controller-datasheet-en.pdf",
+ "part": "Infineon EZ-PD CCG6_CFP",
+ "source": "Table 4 (p35) and Table 5 (p36), hand-transcribed from rendered page images (not from any tool output). The symbol is the 'Parameter' column.",
+ "parameters": [
+  {
+   "symbol": "VDDIO_ABS",
+   "min": "-0.50",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VGPIO_ABS",
+   "min": "-0.5",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VGPIO_FAILSAFE_ABS",
+   "min": "-0.5",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "IGPIO_ABS",
+   "min": "-25",
+   "max": "25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "IGPIO_injection",
+   "min": "-0.5",
+   "max": "0.5",
+   "unit": "mA"
+  },
+  {
+   "symbol": "V5V_ABS",
+   "min": "-0.5",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VSYS_ABS",
+   "min": "-0.5",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VBUS_ABS",
+   "min": "-0.3",
+   "max": "28",
+   "unit": "V"
+  },
+  {
+   "symbol": "VCC_PIN_ABS",
+   "min": "-0.5",
+   "max": "28",
+   "unit": "V"
+  },
+  {
+   "symbol": "VSBU_PIN_ABS",
+   "min": "-0.5",
+   "max": "28",
+   "unit": "V"
+  },
+  {
+   "symbol": "VAUX_PIN_ABS",
+   "min": "-0.5",
+   "max": "6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VLSx_PIN_ABS",
+   "min": "-0.5",
+   "max": "2",
+   "unit": "V"
+  },
+  {
+   "symbol": "VDDD",
+   "conditions": "-40°C to +70°C TA",
+   "min": "3",
+   "max": "3.65",
+   "unit": "V"
+  },
+  {
+   "symbol": "VDDWRITE",
+   "min": "2.7",
+   "max": "5.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VDDIO",
+   "min": "1.71",
+   "max": "VDDD",
+   "unit": "V"
+  },
+  {
+   "symbol": "VCCD",
+   "typ": "1.8",
+   "unit": "V"
+  },
+  {
+   "symbol": "Cefc",
+   "typ": "1",
+   "unit": "µF"
+  },
+  {
+   "symbol": "Cexc",
+   "typ": "4.7",
+   "unit": "µF"
+  },
+  {
+   "symbol": "Cexv",
+   "typ": "1",
+   "unit": "µF"
+  },
+  {
+   "symbol": "Cexio",
+   "typ": "1",
+   "unit": "µF"
+  },
+  {
+   "symbol": "V5V",
+   "conditions": "-40°C to +70°C TA",
+   "min": "4.85",
+   "max": "5.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VSYS_UFP",
+   "min": "2.8",
+   "max": "3.63",
+   "unit": "V"
+  },
+  {
+   "symbol": "VSYS_DFP_DRP",
+   "min": "3",
+   "max": "3.63",
+   "unit": "V"
+  },
+  {
+   "symbol": "VBUS",
+   "min": "4",
+   "max": "21.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "IDD12",
+   "typ": "10",
+   "unit": "mA"
+  },
+  {
+   "symbol": "IDD_DS1",
+   "typ": "250",
+   "unit": "µA"
+  },
+  {
+   "symbol": "IDD_DS2",
+   "typ": "635",
+   "unit": "µA"
+  }
+ ],
+ "figures": [
+  {
+   "page": 6,
+   "label": "Figure 1",
+   "caption": "Figure 1 EZ-PD™ CCG6_CFP functional block diagram for single-port device"
+  },
+  {
+   "page": 9,
+   "label": "Figure 2",
+   "caption": "Figure 2 SBU protection and high-speed crossbar switch block diagram"
+  },
+  {
+   "page": 10,
+   "label": "Figure 3",
+   "caption": "Figure 3 High-speed crossbar switch internal block diagram"
+  },
+  {
+   "page": 14,
+   "label": "Figure 4",
+   "caption": "Figure 4 EZ-PD™ CCG6_CFP clocking architecture"
+  },
+  {
+   "page": 16,
+   "label": "Figure 5",
+   "caption": "Figure 5 EZ-PD™ CCG6_CFP dual-port power system requirement block diagram"
+  },
+  {
+   "page": 17,
+   "label": "Figure 6",
+   "caption": "Figure 6 EZ-PD™ CCG6_CFP single-port power system requirement block diagram"
+  },
+  {
+   "page": 22,
+   "label": "Figure 7",
+   "caption": "Figure 7 EZ-PD™ CCG6_CFP single-port 52-pin QFN pinout"
+  },
+  {
+   "page": 23,
+   "label": "Figure 8",
+   "caption": "Figure 8 EZ-PD™ CCG6_CFP dual-port 52-pin QFN pinout"
+  },
+  {
+   "page": 24,
+   "label": "Figure 9",
+   "caption": "Figure 9 EZ-PD™ CCG6_CFP single-port application block diagram with VDDIO = 3.3 V"
+  },
+  {
+   "page": 25,
+   "label": "Figure 10",
+   "caption": "Figure 10 EZ-PD™ CCG6_CFP single-port application block diagram with VDDIO = 1.8 V"
+  },
+  {
+   "page": 26,
+   "label": "Figure 11",
+   "caption": "Figure 11 EZ-PD™ CCG6_CFP dual-port application block diagram with VDDIO = 3.3 V"
+  },
+  {
+   "page": 27,
+   "label": "Figure 12",
+   "caption": "Figure 12 EZ-PD™ CCG6_CFP dual-port application block diagram with VDDIO = 1.8 V"
+  },
+  {
+   "page": 28,
+   "label": "Figure 13",
+   "caption": "Figure 13 Top view standard footprint (recommended) for EZ-PD™ CCG6_CFP"
+  },
+  {
+   "page": 29,
+   "label": "Figure 14",
+   "caption": "Figure 14 QFN pad size"
+  },
+  {
+   "page": 29,
+   "label": "Figure 15",
+   "caption": "Figure 15 Six layer stack-up"
+  },
+  {
+   "page": 30,
+   "label": "Figure 16",
+   "caption": "Figure 16 QFN fanout with thermal vias"
+  },
+  {
+   "page": 30,
+   "label": "Figure 17",
+   "caption": "Figure 17 Thermal pad (EPAD) and thermal via"
+  },
+  {
+   "page": 31,
+   "label": "Figure 18",
+   "caption": "Figure 18 Via count for power pins"
+  },
+  {
+   "page": 32,
+   "label": "Figure 19",
+   "caption": "Figure 19 CC1 and CC2 fanout (showing Port 1)"
+  },
+  {
+   "page": 32,
+   "label": "Figure 20",
+   "caption": "Figure 20 CC1 and CC2 caps"
+  },
+  {
+   "page": 33,
+   "label": "Figure 21",
+   "caption": "Figure 21 Top layer placement of caps"
+  },
+  {
+   "page": 33,
+   "label": "Figure 22",
+   "caption": "Figure 22 Bottom layer placement of VDDIO caps"
+  },
+  {
+   "page": 34,
+   "label": "Figure 23",
+   "caption": "Figure 23 ESD diode placement"
+  },
+  {
+   "page": 59,
+   "label": "Figure 24",
+   "caption": "Figure 24 52-pin QFN ((5.0 × 8.0 × 0.9 mm) LT52B, 3.6 × 6.6 mm EPAD (Sawn) package outline"
+  }
+ ],
+ "figures_source": "pypdfium2 text layer, 'Figure N' caption lines (scripts/make_golden_figures.py), reviewed"
+}

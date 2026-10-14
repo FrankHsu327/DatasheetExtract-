@@ -1,0 +1,33 @@
+# SPI NOR Flash (SPI ROM) 專屬設定
+component:
+  name: spi_rom
+  part_number_patterns:          # 從標題/內文抓料號（依廠牌補充）
+    - "\\bW25Q\\d+[A-Z0-9]*\\b"
+    - "\\bMX25[A-Z]?\\d+[A-Z0-9]*\\b"
+    - "\\bGD25[A-Z]?\\d+[A-Z0-9]*\\b"
+    - "\\bIS25[A-Z]{2}\\d+[A-Z0-9]*\\b"
+    - "\\bAT25[A-Z]{2}\\d+[A-Z0-9]*\\b"
+    - "\\bXM25[A-Z]{2}\\d+[A-Z0-9]*\\b"
+    - "\\bDS\\d{3}[A-Z0-9-]*\\b"  # 範例 PDF 用
+
+# EA 會用到的關鍵參數清單：抽不到就報 missing（盲點偵測，不是 schema 必填）
+# match: symbol 正規式（不分大小寫，比對去空白後的 symbol）；name_any: 參數名稱關鍵字
+expected_parameters:
+  - {key: vcc_range,     category: recommended_operating, match: "^v(cc|dd)$",         name_any: ["supply voltage"]}
+  - {key: vih,           category: dc_characteristics,    match: "^vih$",              name_any: ["input high"]}
+  - {key: vil,           category: dc_characteristics,    match: "^vil$",              name_any: ["input low"]}
+  - {key: voh,           category: dc_characteristics,    match: "^voh$",              name_any: ["output high"]}
+  - {key: vol,           category: dc_characteristics,    match: "^vol$",              name_any: ["output low"]}
+  - {key: icc_standby,   category: dc_characteristics,    match: "^i(cc|sb)1?$",       name_any: ["standby current"]}
+  - {key: icc_read,      category: dc_characteristics,    match: "^icc3$",             name_any: ["read current", "active read"]}
+  - {key: fclk_max,      category: ac_characteristics,    match: "^f(c|r|clk|sck)\\d?$", name_any: ["clock frequency"]}
+  - {key: t_clk_high,    category: ac_characteristics,    match: "^t(ch|clh|wh)\\d?$",  name_any: ["clock high time", "high time"]}
+  - {key: t_clk_low,     category: ac_characteristics,    match: "^t(cl|cll|wl)\\d?$",  name_any: ["clock low time", "low time"]}
+  - {key: t_setup_data,  category: ac_characteristics,    match: "^t(dvch|dsu|su(dat)?)$", name_any: ["data in setup", "data setup"]}
+  - {key: t_hold_data,   category: ac_characteristics,    match: "^t(chdx|dh|h(dat)?)$", name_any: ["data in hold", "data hold"]}
+  - {key: t_cs_setup,    category: ac_characteristics,    match: "^t(slch|css)$",      name_any: ["cs# active setup", "/cs active setup", "cs setup"]}
+  - {key: t_cs_hold,     category: ac_characteristics,    match: "^tchsh$",            name_any: ["cs# active hold", "/cs active hold", "cs hold"]}
+  - {key: t_cs_deselect, category: ac_characteristics,    match: "^t(shsl\\d?|csh|cs)$", name_any: ["deselect"]}
+  - {key: t_out_valid,   category: ac_characteristics,    match: "^t(clqv\\d?|v)$",    name_any: ["output valid", "clock low to output"]}
+  - {key: t_out_hold,    category: ac_characteristics,    match: "^t(clqx|ho)$",       name_any: ["output hold"]}
+  - {key: t_vsl,         category: power_up,              match: "^t(vsl|pu|vcs[l]?)$", name_any: ["vcc(min) to cs", "power-up"]}

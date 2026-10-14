@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.internal/datasheet-extractor/component.schema.json",
+  "title": "Datasheet component spec",
+  "type": "object",
+  "required": ["schema_version", "component", "datasheet", "extraction", "parameters", "tables", "figures", "quality"],
+  "additionalProperties": false,
+  "$defs": {
+    "value": {
+      "type": ["object", "null"],
+      "required": ["raw"],
+      "properties": {
+        "raw": {"type": ["string", "null"]},
+        "value": {"type": ["number", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "value_si": {"type": ["number", "null"]},
+        "si_unit": {"type": ["string", "null"]},
+        "expr": {"type": ["string", "null"], "description": "非純數值（例如 0.7 x VCC），保留原文"},
+        "notes": {"type": "array", "items": {"type": "string"}},
+        "plus_minus": {"type": "boolean"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["page", "bbox"],
+      "properties": {
+        "page": {"type": "integer", "minimum": 1},
+        "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4,
+                 "description": "[l, t, r, b], PDF points, top-left origin"},
+        "ref": {"type": ["string", "null"]}
+      }
+    },
+    "parameter": {
+      "type": "object",
+      "required": ["id", "category", "name", "symbol", "conditions", "unit", "min", "typ", "max", "value", "source", "method", "flags"],
+      "properties": {
+        "id": {"type": "string"},
+        "category": {"type": ["string", "null"]},
+        "name": {"type": ["string", "null"]},
+        "symbol": {"type": ["string", "null"]},
+        "alt_symbol": {"type": ["string", "null"]},
+        "conditions": {"type": ["string", "null"]},
+        "section": {"type": ["string", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "min": {"$ref": "#/$defs/value"},
+        "typ": {"$ref": "#/$defs/value"},
+        "max": {"$ref": "#/$defs/value"},
+        "value": {"$ref": "#/$defs/value"},
+        "extra_values": {"type": "object", "additionalProperties": {"$ref": "#/$defs/value"}},
+        "notes": {"type": "array", "items": {"type": "object", "properties": {"id": {"type": "string"}, "text": {"type": ["string", "null"]}}}},
+        "source": {
+          "type": "object",
+          "required": ["table_id", "row_id", "pages"],
+          "properties": {
+            "table_id": {"type": "string"}, "row_id": {"type": "string"},
+            "source_ref": {"type": ["string", "null"]}, "source_row": {"type": ["integer", "null"]},
+            "pages": {"type": "array", "items": {"type": "integer"}},
+            "caption": {"type": ["string", "null"]}
+          }
+        },
+        "method": {"enum": ["rule", "llm", "manual"]},
+        "flags": {"type": "array", "items": {"type": "string"}},
+        "review": {"type": ["object", "null"]}
+      },
+      "anyOf": [
+        {"properties": {"min": {"type": "object"}}, "required": ["min"]},
+        {"properties": {"typ": {"type": "object"}}, "required": ["typ"]},
+        {"properties": {"max": {"type": "object"}}, "required": ["max"]},
+        {"properties": {"value": {"type": "object"}}, "required": ["value"]}
+      ]
+    }
+  },
+  "properties": {
+    "schema_version": {"const": "0.1.0"},
+    "component": {
+      "type": "object",
+      "required": ["category", "part_numbers"],
+      "properties": {
+        "category": {"type": "string"},
+        "part_numbers": {"type": "array", "items": {"type": "string"}},
+        "manufacturer": {"type": ["string", "null"]}
+      }
+    },
+    "datasheet": {
+      "type": "object",
+      "required": ["file", "sha256"],
+      "properties": {
+        "file": {"type": "string"},
+        "sha256": {"type": ["string", "null"]},
+        "title": {"type": ["string", "null"]},
+        "revision": {"type": ["string", "null"]},
+        "pages": {"type": ["integer", "null"]}
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "required": ["timestamp", "tool_version"],
+      "properties": {
+        "timestamp": {"type": "string"},
+        "tool_version": {"type": "string"},
+        "docling_version": {"type": ["string", "null"]},
+        "config_hash": {"type": ["string", "null"]},
+        "llm_used": {"type": "boolean"}
+      }
+    },
+    "parameters": {"type": "array", "items": {"$ref": "#/$defs/parameter"}},
+    "tables": {"type": "array", "items": {"type": "object", "required": ["id", "caption", "category", "columns", "rows", "provenance"]}},
+    "figures": {"type": "array", "items": {"type": "object", "required": ["id", "caption", "kind", "provenance"]}},
+    "quality": {
+      "type": "object",
+      "required": ["coverage", "validation", "expected_parameters"],
+      "properties": {
+        "coverage": {"type": "array"},
+        "crosscheck": {"type": ["array", "null"]},
+        "validation": {"type": "object"},
+        "expected_parameters": {"type": "object"},
+        "llm_pending": {"type": "array"},
+        "needs_review": {"type": "boolean"}
+      }
+    }
+  }
+}

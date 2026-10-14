@@ -1,0 +1,112 @@
+{
+  "datasheet": "DS325Q32.pdf",
+  "parameters": [
+    {
+      "symbol": "VCC",
+      "conditions": null,
+      "min": "2.7",
+      "typ": "3.0",
+      "max": "3.6",
+      "unit": "V"
+    },
+    {
+      "symbol": "TA",
+      "min": "-40",
+      "max": "85",
+      "unit": "°C"
+    },
+    {
+      "symbol": "VIH",
+      "min": "0.7 x VCC",
+      "max": "VCC+0.4",
+      "unit": "V"
+    },
+    {
+      "symbol": "VIL",
+      "min": "-0.5",
+      "max": "0.3 x VCC",
+      "unit": "V"
+    },
+    {
+      "symbol": "VOH",
+      "conditions": "IOH = -100 µA",
+      "min": "VCC-0.2",
+      "unit": "V"
+    },
+    {
+      "symbol": "VOL",
+      "conditions": "IOL = 1.6 mA",
+      "max": "0.4",
+      "unit": "V"
+    },
+    {
+      "symbol": "ICC1",
+      "conditions": "CS# = VCC",
+      "typ": "10",
+      "max": "50",
+      "unit": "µA"
+    },
+    {
+      "symbol": "ICC3",
+      "conditions": "fC = 104 MHz",
+      "typ": "15",
+      "max": "25",
+      "unit": "mA"
+    },
+    {
+      "symbol": "fC",
+      "max": "104",
+      "unit": "MHz"
+    },
+    {
+      "symbol": "tCH",
+      "min": "4.5",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tCL",
+      "min": "4.5",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tDVCH",
+      "min": "2",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tCHDX",
+      "min": "3",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tSLCH",
+      "min": "5",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tCHSH",
+      "min": "5",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tSHSL",
+      "min": "50",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tCLQV",
+      "max": "6",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tCLQX",
+      "min": "1.5",
+      "unit": "ns"
+    },
+    {
+      "symbol": "tVSL",
+      "min": "300",
+      "unit": "µs"
+    }
+  ]
+}

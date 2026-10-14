@@ -1,0 +1,6 @@
+# 不分元件類型的通用設定：沒有關鍵參數清單（方法比較、尚未建立專屬設定的元件用）
+component:
+  name: generic
+  part_number_patterns: []
+
+expected_parameters: []

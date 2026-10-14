@@ -1,0 +1,100 @@
+# =====================================================================
+# Datasheet Extractor - default config
+# 元件專屬設定放在 config/components/<name>.yaml，會 deep-merge 覆蓋本檔
+# =====================================================================
+
+docling:
+  do_ocr: false                 # 數位 PDF 關閉；掃描檔改 true
+  table_mode: accurate          # accurate | fast
+  do_cell_matching: false       # 合併儲存格多時 false 較好；建議兩種都跑 golden set 比較
+  images_scale: 2.0             # 表格/圖片截圖解析度（給 review 與視覺 LLM 用）
+  generate_page_images: true    # 必須 true，才能用 TableItem.get_image() 截表格圖
+  generate_picture_images: true
+  do_picture_classification: true   # DocumentFigureClassifier（models/docling）；圖片描述由 hybrid 的 Granite Vision 負責
+  visualize_layout: false       # debug：輸出 layout 偵測框圖，診斷「表格沒被偵測到」時打開
+  visualize_tables: false
+  artifacts_path: models/docling  # 由 scripts/download_models.py 下載；相對路徑以專案根目錄為準；資料夾不存在時改用 HF 線上下載
+
+hybrid:                         # Stage 1：Docling 找位置、pdfplumber 取文字、Granite Vision 描述圖
+  # 表格：Docling 偵測到的每張表 →
+  #   1) 表格範圍內有框線 → pdfplumber 依框線重建（結構 + 文字都來自 PDF 文字層）
+  #   2) 沒有框線 → 沿用 Docling TableFormer 的格子結構，每格文字改用 pdfplumber 在該格範圍內的字
+  #   兩者的數字 token 不一致 → 表格標 hybrid_disagreement
+  y_tolerance: 4                # pdfplumber 取字：下標字（F_R、C_IN）與主字合併成同一行
+  header_margin: 75             # 頁首高度（pt）：範圍內的圖（logo 條）不描述
+  footer_margin: 60
+  lines_min_filled_ratio: 0.25  # pdfplumber 依框線找到的「表」非空格比例低於此值 → 視為圖，不採用
+  lines_min_coverage: 0.6       # pdfplumber 依框線找到的表要涵蓋 Docling 表格範圍的比例，才採用其結構
+  add_missed_ruled_tables: true # 頁面上有框線、但 Docling 沒偵測到的表也補進來
+  disagreement_ratio: 0.1       # 兩邊數字 token 差異比例超過此值 → flag
+  # 圖：Docling layout 找圖、圖片分類器分類；描述用 Granite Vision + datasheet 專用 prompt（帶入 caption 與圖內 PDF 文字）
+  describe: true
+  describe_prompt_file: prompts/figure_describe_hybrid.md
+  describe_min_area: 0.02       # 圖面積 / 頁面面積 低於此值不描述（icon、logo）
+  describe_skip_classes: [logo, icon, bar_code, qr_code, signature, stamp]
+  describe_max_new_tokens: 300  # 約 8 行；更長的輸出多半是重複或贅述，且每張圖多花數秒
+  describe_image_scale: 2.0     # 裁圖解析度（pt → px 倍率）
+
+tables:
+  merge_continuations: true
+  continuation_patterns: ["continued", "cont'd", "cont’d", "cont.", "(cont)", "續"]
+  drop_repeated_headers: true
+  fill_down_roles: ["parameter", "conditions"]   # 空白時往下填（合併儲存格常見）
+  header_keywords:              # 欄位角色辨識（小寫比對，contains）
+    parameter: ["parameter", "characteristic", "description", "item", "spec"]
+    alt_symbol: ["alt", "alternate", "alt. symbol"]
+    symbol: ["symbol", "sym", "name"]
+    conditions: ["condition", "test condition", "conditions", "notes / conditions"]
+    min: ["min", "minimum"]
+    typ: ["typ", "typical", "nom", "nominal"]
+    max: ["max", "maximum"]
+    unit: ["unit", "units"]
+    value: ["value", "rating", "ratings", "limit", "range"]
+    notes: ["note", "notes", "remark"]
+
+locate:
+  # 表格分類：比對 caption + 所在章節標題 + 表頭
+  categories:
+    absolute_max: ["absolute maximum", "abs max", "absolute max"]
+    recommended_operating: ["recommended operating", "operating conditions", "operating range"]
+    dc_characteristics: ["dc characteristic", "dc electrical", "dc parameter", "dc spec"]
+    ac_characteristics: ["ac characteristic", "ac electrical", "ac parameter", "timing characteristic", "ac spec", "switching"]
+    capacitance: ["capacitance", "pin capacitance"]
+    power_up: ["power-up", "power up", "power-on", "power on", "power-down", "power sequence"]
+    pin_description: ["pin description", "pin assignment", "pin definition", "signal description"]
+    ordering_info: ["ordering information", "part number", "ordering code"]
+    command_set: ["command", "instruction set", "instruction"]
+    ac_measurement: ["ac measurement", "measurement condition", "test condition"]
+    package: ["package specification", "package dimension", "package outline", "mechanical", "dimensions"]
+  spec_categories: ["absolute_max", "recommended_operating", "dc_characteristics", "ac_characteristics", "capacitance", "power_up", "ac_measurement"]
+
+extract:
+  use_rules_first: true          # 規則抽取能完整覆蓋的表格就不送 LLM
+  min_rule_coverage: 1.0         # 規則覆蓋率低於此值 → 送 LLM（或標 needs_llm）
+  extract_all_spec_like: true    # 「未分類」但有 min/typ/max 欄的表也抽（已分類為 package 等非 spec 類別者不抽）
+
+llm:
+  enabled: false                 # TODO(Devin): 串好公司 LLM 後改 true，見 datasheet_extractor/llm_client.py
+  max_retries_for_missing_rows: 1
+  prompt_file: prompts/table_extract.md
+
+figures:
+  describe_enabled: false        # TODO(Devin): moondream / 視覺 LLM 串好後改 true，見 figures.py
+  prompt_file: prompts/figure_describe.md
+  kinds:                         # 依 caption 關鍵字判斷圖類型
+    timing_diagram: ["timing", "waveform", "cycle", "sequence"]
+    characteristic_curve: ["typical", "vs.", "versus", "characteristic", "curve"]
+    pinout: ["pin", "pinout", "ball", "connection diagram"]
+    package: ["package", "outline", "dimension", "mechanical", "footprint", "land pattern"]
+    block_diagram: ["block diagram", "functional diagram"]
+  needs_review_kinds: ["timing_diagram", "power_sequence"]   # 這類圖若描述有數值一律人工確認
+
+crosscheck:
+  enabled: true                  # 用 pdfplumber 在表格 bbox 內抽數字 token，與 Docling 結果比對
+  min_token_recall: 0.98
+
+validate:
+  tolerance_ratio: 1.0e-9
+
+review:
+  max_rows_inline: 200

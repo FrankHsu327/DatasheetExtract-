@@ -1,0 +1,14 @@
+# Stage 1（PDF 轉換）需要；Stage 2+ 不需要
+docling>=2.138
+# Stage 2+ 與測試
+docling-core>=2.100
+pdfplumber>=0.11
+PyYAML>=6.0
+jsonschema>=4.20
+Pillow>=10.0
+# 測試 / 範例產生
+pytest>=8.0
+reportlab>=4.0
+# TODO(Devin): 串接 LLM / VLM 時再加
+# requests>=2.31
+# transformers>=4.40   # moondream 本地推論用

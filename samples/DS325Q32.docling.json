@@ -1,0 +1,7835 @@
+{
+ "schema_name": "DoclingDocument",
+ "version": "1.10.0",
+ "name": "DS325Q32",
+ "furniture": {
+  "self_ref": "#/furniture",
+  "children": [],
+  "content_layer": "furniture",
+  "name": "_root_",
+  "label": "unspecified"
+ },
+ "body": {
+  "self_ref": "#/body",
+  "children": [
+   {
+    "$ref": "#/texts/0"
+   },
+   {
+    "$ref": "#/texts/1"
+   },
+   {
+    "$ref": "#/texts/2"
+   },
+   {
+    "$ref": "#/tables/0"
+   },
+   {
+    "$ref": "#/texts/3"
+   },
+   {
+    "$ref": "#/texts/4"
+   },
+   {
+    "$ref": "#/tables/1"
+   },
+   {
+    "$ref": "#/texts/5"
+   },
+   {
+    "$ref": "#/texts/6"
+   },
+   {
+    "$ref": "#/tables/2"
+   },
+   {
+    "$ref": "#/texts/7"
+   },
+   {
+    "$ref": "#/tables/3"
+   },
+   {
+    "$ref": "#/texts/8"
+   },
+   {
+    "$ref": "#/texts/9"
+   },
+   {
+    "$ref": "#/texts/10"
+   },
+   {
+    "$ref": "#/tables/4"
+   },
+   {
+    "$ref": "#/texts/11"
+   },
+   {
+    "$ref": "#/pictures/0"
+   },
+   {
+    "$ref": "#/texts/16"
+   },
+   {
+    "$ref": "#/texts/17"
+   },
+   {
+    "$ref": "#/pictures/1"
+   }
+  ],
+  "content_layer": "body",
+  "name": "_root_",
+  "label": "unspecified"
+ },
+ "groups": [],
+ "texts": [
+  {
+   "self_ref": "#/texts/0",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "title",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 744.0,
+      "r": 400.0,
+      "b": 728.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "DS325Q32 3V 32M-bit Serial NOR Flash",
+   "text": "DS325Q32 3V 32M-bit Serial NOR Flash"
+  },
+  {
+   "self_ref": "#/texts/1",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "section_header",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 713.0,
+      "r": 400.0,
+      "b": 700.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "1. Absolute Maximum Ratings",
+   "text": "1. Absolute Maximum Ratings",
+   "level": 1
+  },
+  {
+   "self_ref": "#/texts/2",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 693.0,
+      "r": 450.0,
+      "b": 682.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Table 1. Absolute Maximum Ratings",
+   "text": "Table 1. Absolute Maximum Ratings"
+  },
+  {
+   "self_ref": "#/texts/3",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "section_header",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 599.0,
+      "r": 400.0,
+      "b": 586.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "2. Recommended Operating Conditions",
+   "text": "2. Recommended Operating Conditions",
+   "level": 1
+  },
+  {
+   "self_ref": "#/texts/4",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 579.0,
+      "r": 450.0,
+      "b": 568.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Table 2. Recommended Operating Conditions",
+   "text": "Table 2. Recommended Operating Conditions"
+  },
+  {
+   "self_ref": "#/texts/5",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "section_header",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 501.0,
+      "r": 400.0,
+      "b": 488.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "3. DC Electrical Characteristics",
+   "text": "3. DC Electrical Characteristics",
+   "level": 1
+  },
+  {
+   "self_ref": "#/texts/6",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 481.0,
+      "r": 450.0,
+      "b": 470.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Table 3. DC Characteristics (TA = -40 to 85 °C, VCC = 2.7 to 3.6 V)",
+   "text": "Table 3. DC Characteristics (TA = -40 to 85 °C, VCC = 2.7 to 3.6 V)"
+  },
+  {
+   "self_ref": "#/texts/7",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 741.0,
+      "r": 450.0,
+      "b": 730.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Table 3. DC Characteristics (Continued)",
+   "text": "Table 3. DC Characteristics (Continued)"
+  },
+  {
+   "self_ref": "#/texts/8",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "text",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 656.0,
+      "r": 450.0,
+      "b": 646.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Notes: 1. Maximum value at TA = 85 °C. Not 100% tested.",
+   "text": "Notes: 1. Maximum value at TA = 85 °C. Not 100% tested."
+  },
+  {
+   "self_ref": "#/texts/9",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "section_header",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 631.0,
+      "r": 400.0,
+      "b": 618.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "4. AC Electrical Characteristics",
+   "text": "4. AC Electrical Characteristics",
+   "level": 1
+  },
+  {
+   "self_ref": "#/texts/10",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 611.0,
+      "r": 450.0,
+      "b": 600.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Table 4. AC Characteristics",
+   "text": "Table 4. AC Characteristics"
+  },
+  {
+   "self_ref": "#/texts/11",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 251.0,
+      "r": 450.0,
+      "b": 240.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Figure 1. Serial Output Timing",
+   "text": "Figure 1. Serial Output Timing"
+  },
+  {
+   "self_ref": "#/texts/12",
+   "parent": {
+    "$ref": "#/pictures/0"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "text",
+   "prov": [],
+   "orig": "CLK",
+   "text": "CLK"
+  },
+  {
+   "self_ref": "#/texts/13",
+   "parent": {
+    "$ref": "#/pictures/0"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "text",
+   "prov": [],
+   "orig": "DO",
+   "text": "DO"
+  },
+  {
+   "self_ref": "#/texts/14",
+   "parent": {
+    "$ref": "#/pictures/0"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "text",
+   "prov": [],
+   "orig": "tCLQV",
+   "text": "tCLQV"
+  },
+  {
+   "self_ref": "#/texts/15",
+   "parent": {
+    "$ref": "#/pictures/0"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "text",
+   "prov": [],
+   "orig": "tCLQX",
+   "text": "tCLQX"
+  },
+  {
+   "self_ref": "#/texts/16",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "section_header",
+   "prov": [
+    {
+     "page_no": 3,
+     "bbox": {
+      "l": 50.0,
+      "t": 743.0,
+      "r": 400.0,
+      "b": 730.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "5. Typical Characteristics",
+   "text": "5. Typical Characteristics",
+   "level": 1
+  },
+  {
+   "self_ref": "#/texts/17",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "caption",
+   "prov": [
+    {
+     "page_no": 3,
+     "bbox": {
+      "l": 50.0,
+      "t": 555.0,
+      "r": 450.0,
+      "b": 544.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "orig": "Figure 2. Typical Standby Current vs. Temperature",
+   "text": "Figure 2. Typical Standby Current vs. Temperature"
+  }
+ ],
+ "pictures": [
+  {
+   "self_ref": "#/pictures/0",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [
+    {
+     "$ref": "#/texts/12"
+    },
+    {
+     "$ref": "#/texts/13"
+    },
+    {
+     "$ref": "#/texts/14"
+    },
+    {
+     "$ref": "#/texts/15"
+    }
+   ],
+   "content_layer": "body",
+   "label": "picture",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 326.0,
+      "r": 460.0,
+      "b": 256.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/11"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "annotations": []
+  },
+  {
+   "self_ref": "#/pictures/1",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "picture",
+   "prov": [
+    {
+     "page_no": 3,
+     "bbox": {
+      "l": 50.0,
+      "t": 712.0,
+      "r": 460.0,
+      "b": 562.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/17"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "annotations": []
+  }
+ ],
+ "tables": [
+  {
+   "self_ref": "#/tables/0",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "table",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 678.0,
+      "r": 440.0,
+      "b": 614.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/2"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "data": {
+    "table_cells": [
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 678.0,
+       "r": 220.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Parameter",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 678.0,
+       "r": 280.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "Symbol",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 678.0,
+       "r": 390.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "Rating",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 390.0,
+       "t": 678.0,
+       "r": 440.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "Unit",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 662.0,
+       "r": 220.0,
+       "b": 646.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Supply Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 662.0,
+       "r": 280.0,
+       "b": 646.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VCC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 662.0,
+       "r": 390.0,
+       "b": 646.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "-0.5 to 4.0",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 390.0,
+       "t": 662.0,
+       "r": 440.0,
+       "b": 646.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 646.0,
+       "r": 220.0,
+       "b": 630.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Storage Temperature",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 646.0,
+       "r": 280.0,
+       "b": 630.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "TSTG",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 646.0,
+       "r": 390.0,
+       "b": 630.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "-65 to 150",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 390.0,
+       "t": 646.0,
+       "r": 440.0,
+       "b": 630.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "°C",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 630.0,
+       "r": 220.0,
+       "b": 614.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "ESD (Human Body Model)",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 630.0,
+       "r": 280.0,
+       "b": 614.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VESD",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 630.0,
+       "r": 390.0,
+       "b": 614.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "2000",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 390.0,
+       "t": 630.0,
+       "r": 440.0,
+       "b": 614.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     }
+    ],
+    "num_rows": 4,
+    "num_cols": 4,
+    "orientation": "rot_0",
+    "grid": [
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 678.0,
+        "r": 220.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 678.0,
+        "r": 280.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 678.0,
+        "r": 390.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "Rating",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 390.0,
+        "t": 678.0,
+        "r": 440.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 662.0,
+        "r": 220.0,
+        "b": 646.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Supply Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 662.0,
+        "r": 280.0,
+        "b": 646.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VCC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 662.0,
+        "r": 390.0,
+        "b": 646.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "-0.5 to 4.0",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 390.0,
+        "t": 662.0,
+        "r": 440.0,
+        "b": 646.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 646.0,
+        "r": 220.0,
+        "b": 630.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Storage Temperature",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 646.0,
+        "r": 280.0,
+        "b": 630.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "TSTG",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 646.0,
+        "r": 390.0,
+        "b": 630.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "-65 to 150",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 390.0,
+        "t": 646.0,
+        "r": 440.0,
+        "b": 630.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "°C",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 630.0,
+        "r": 220.0,
+        "b": 614.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "ESD (Human Body Model)",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 630.0,
+        "r": 280.0,
+        "b": 614.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VESD",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 630.0,
+        "r": 390.0,
+        "b": 614.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "2000",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 390.0,
+        "t": 630.0,
+        "r": 440.0,
+        "b": 614.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ]
+    ]
+   },
+   "annotations": []
+  },
+  {
+   "self_ref": "#/tables/1",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "table",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 564.0,
+      "r": 480.0,
+      "b": 516.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/4"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "data": {
+    "table_cells": [
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 564.0,
+       "r": 220.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Parameter",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 564.0,
+       "r": 280.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "Symbol",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 564.0,
+       "r": 330.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "Min",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 330.0,
+       "t": 564.0,
+       "r": 380.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "Typ",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 380.0,
+       "t": 564.0,
+       "r": 430.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "Max",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 430.0,
+       "t": 564.0,
+       "r": 480.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "Unit",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 548.0,
+       "r": 220.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Supply Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 548.0,
+       "r": 280.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VCC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 548.0,
+       "r": 330.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "2.7",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 330.0,
+       "t": 548.0,
+       "r": 380.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "3.0",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 380.0,
+       "t": 548.0,
+       "r": 430.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "3.6",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 430.0,
+       "t": 548.0,
+       "r": 480.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 532.0,
+       "r": 220.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Ambient Temperature",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 220.0,
+       "t": 532.0,
+       "r": 280.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "TA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 280.0,
+       "t": 532.0,
+       "r": 330.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "-40",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 330.0,
+       "t": 532.0,
+       "r": 380.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 380.0,
+       "t": 532.0,
+       "r": 430.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "85",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 430.0,
+       "t": 532.0,
+       "r": 480.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "°C",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     }
+    ],
+    "num_rows": 3,
+    "num_cols": 6,
+    "orientation": "rot_0",
+    "grid": [
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 220.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 564.0,
+        "r": 280.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 564.0,
+        "r": 330.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "Min",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 330.0,
+        "t": 564.0,
+        "r": 380.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "Typ",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 380.0,
+        "t": 564.0,
+        "r": 430.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "Max",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 430.0,
+        "t": 564.0,
+        "r": 480.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 548.0,
+        "r": 220.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Supply Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 548.0,
+        "r": 280.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VCC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 548.0,
+        "r": 330.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "2.7",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 330.0,
+        "t": 548.0,
+        "r": 380.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "3.0",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 380.0,
+        "t": 548.0,
+        "r": 430.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "3.6",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 430.0,
+        "t": 548.0,
+        "r": 480.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 532.0,
+        "r": 220.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Ambient Temperature",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 220.0,
+        "t": 532.0,
+        "r": 280.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "TA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 280.0,
+        "t": 532.0,
+        "r": 330.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "-40",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 330.0,
+        "t": 532.0,
+        "r": 380.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 380.0,
+        "t": 532.0,
+        "r": 430.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "85",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 430.0,
+        "t": 532.0,
+        "r": 480.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "°C",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ]
+    ]
+   },
+   "annotations": []
+  },
+  {
+   "self_ref": "#/tables/2",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "table",
+   "prov": [
+    {
+     "page_no": 1,
+     "bbox": {
+      "l": 50.0,
+      "t": 466.0,
+      "r": 505.0,
+      "b": 386.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/6"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "data": {
+    "table_cells": [
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 466.0,
+       "r": 170.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Parameter",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 466.0,
+       "r": 215.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "Symbol",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 466.0,
+       "r": 335.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "Conditions",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 466.0,
+       "r": 375.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "Min",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 466.0,
+       "r": 415.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "Typ",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 466.0,
+       "r": 470.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "Max",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 466.0,
+       "r": 505.0,
+       "b": 450.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "Unit",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 450.0,
+       "r": 170.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Input High Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 450.0,
+       "r": 215.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VIH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 450.0,
+       "r": 335.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 450.0,
+       "r": 375.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "0.7 x VCC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 450.0,
+       "r": 415.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 450.0,
+       "r": 470.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "VCC+0.4",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 450.0,
+       "r": 505.0,
+       "b": 434.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 434.0,
+       "r": 170.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Input Low Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 434.0,
+       "r": 215.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VIL",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 434.0,
+       "r": 335.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 434.0,
+       "r": 375.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "-0.5",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 434.0,
+       "r": 415.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 434.0,
+       "r": 470.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "0.3 x VCC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 434.0,
+       "r": 505.0,
+       "b": 418.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 418.0,
+       "r": 170.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Output High Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 418.0,
+       "r": 215.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VOH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 418.0,
+       "r": 335.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "IOH = -100 µA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 418.0,
+       "r": 375.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "VCC-0.2",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 418.0,
+       "r": 415.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 418.0,
+       "r": 470.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 418.0,
+       "r": 505.0,
+       "b": 402.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 402.0,
+       "r": 170.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Output Low Voltage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 402.0,
+       "r": 215.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "VOL",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 402.0,
+       "r": 335.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "IOL = 1.6 mA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 402.0,
+       "r": 375.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 402.0,
+       "r": 415.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 402.0,
+       "r": 470.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "0.4",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 402.0,
+       "r": 505.0,
+       "b": 386.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "V",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     }
+    ],
+    "num_rows": 5,
+    "num_cols": 7,
+    "orientation": "rot_0",
+    "grid": [
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 466.0,
+        "r": 170.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 466.0,
+        "r": 215.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 466.0,
+        "r": 335.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "Conditions",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 466.0,
+        "r": 375.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "Min",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 466.0,
+        "r": 415.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "Typ",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 466.0,
+        "r": 470.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "Max",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 466.0,
+        "r": 505.0,
+        "b": 450.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 450.0,
+        "r": 170.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Input High Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 450.0,
+        "r": 215.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VIH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 450.0,
+        "r": 335.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 450.0,
+        "r": 375.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "0.7 x VCC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 450.0,
+        "r": 415.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 450.0,
+        "r": 470.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "VCC+0.4",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 450.0,
+        "r": 505.0,
+        "b": 434.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 434.0,
+        "r": 170.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Input Low Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 434.0,
+        "r": 215.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VIL",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 434.0,
+        "r": 335.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 434.0,
+        "r": 375.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "-0.5",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 434.0,
+        "r": 415.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 434.0,
+        "r": 470.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "0.3 x VCC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 434.0,
+        "r": 505.0,
+        "b": 418.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 418.0,
+        "r": 170.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Output High Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 418.0,
+        "r": 215.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VOH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 418.0,
+        "r": 335.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "IOH = -100 µA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 418.0,
+        "r": 375.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "VCC-0.2",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 418.0,
+        "r": 415.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 418.0,
+        "r": 470.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 418.0,
+        "r": 505.0,
+        "b": 402.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 402.0,
+        "r": 170.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Output Low Voltage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 402.0,
+        "r": 215.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "VOL",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 402.0,
+        "r": 335.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "IOL = 1.6 mA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 402.0,
+        "r": 375.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 402.0,
+        "r": 415.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 402.0,
+        "r": 470.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "0.4",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 402.0,
+        "r": 505.0,
+        "b": 386.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "V",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ]
+    ]
+   },
+   "annotations": []
+  },
+  {
+   "self_ref": "#/tables/3",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "table",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 726.0,
+      "r": 505.0,
+      "b": 662.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/7"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "data": {
+    "table_cells": [
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 726.0,
+       "r": 170.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Parameter",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 726.0,
+       "r": 215.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "Symbol",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 726.0,
+       "r": 335.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "Conditions",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 726.0,
+       "r": 375.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "Min",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 726.0,
+       "r": 415.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "Typ",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 726.0,
+       "r": 470.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "Max",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 726.0,
+       "r": 505.0,
+       "b": 710.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "Unit",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 710.0,
+       "r": 170.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Standby Current",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 710.0,
+       "r": 215.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "ICC1",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 710.0,
+       "r": 335.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "CS# = VCC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 710.0,
+       "r": 375.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 710.0,
+       "r": 415.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "10",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 710.0,
+       "r": 470.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "50(1)",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 710.0,
+       "r": 505.0,
+       "b": 694.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "µA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 694.0,
+       "r": 170.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Read Current",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 694.0,
+       "r": 215.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "ICC3",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 694.0,
+       "r": 335.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "fC = 104 MHz",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 694.0,
+       "r": 375.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 694.0,
+       "r": 415.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "15",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 694.0,
+       "r": 470.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "25",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 694.0,
+       "r": 505.0,
+       "b": 678.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "mA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 678.0,
+       "r": 170.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Input Leakage",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 170.0,
+       "t": 678.0,
+       "r": 215.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "ILI",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 215.0,
+       "t": 678.0,
+       "r": 335.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 335.0,
+       "t": 678.0,
+       "r": 375.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 375.0,
+       "t": 678.0,
+       "r": 415.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 415.0,
+       "t": 678.0,
+       "r": 470.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "±2",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 470.0,
+       "t": 678.0,
+       "r": 505.0,
+       "b": 662.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 6,
+      "end_col_offset_idx": 7,
+      "text": "µA",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     }
+    ],
+    "num_rows": 4,
+    "num_cols": 7,
+    "orientation": "rot_0",
+    "grid": [
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 726.0,
+        "r": 170.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 726.0,
+        "r": 215.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 726.0,
+        "r": 335.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "Conditions",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 726.0,
+        "r": 375.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "Min",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 726.0,
+        "r": 415.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "Typ",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 726.0,
+        "r": 470.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "Max",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 726.0,
+        "r": 505.0,
+        "b": 710.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 710.0,
+        "r": 170.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Standby Current",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 710.0,
+        "r": 215.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "ICC1",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 710.0,
+        "r": 335.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "CS# = VCC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 710.0,
+        "r": 375.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 710.0,
+        "r": 415.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "10",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 710.0,
+        "r": 470.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "50(1)",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 710.0,
+        "r": 505.0,
+        "b": 694.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "µA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 694.0,
+        "r": 170.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Read Current",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 694.0,
+        "r": 215.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "ICC3",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 694.0,
+        "r": 335.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "fC = 104 MHz",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 694.0,
+        "r": 375.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 694.0,
+        "r": 415.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "15",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 694.0,
+        "r": 470.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "25",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 694.0,
+        "r": 505.0,
+        "b": 678.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "mA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 678.0,
+        "r": 170.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Input Leakage",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 170.0,
+        "t": 678.0,
+        "r": 215.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "ILI",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 215.0,
+        "t": 678.0,
+        "r": 335.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 335.0,
+        "t": 678.0,
+        "r": 375.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 375.0,
+        "t": 678.0,
+        "r": 415.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 415.0,
+        "t": 678.0,
+        "r": 470.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "±2",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 470.0,
+        "t": 678.0,
+        "r": 505.0,
+        "b": 662.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 6,
+       "end_col_offset_idx": 7,
+       "text": "µA",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ]
+    ]
+   },
+   "annotations": []
+  },
+  {
+   "self_ref": "#/tables/4",
+   "parent": {
+    "$ref": "#/body"
+   },
+   "children": [],
+   "content_layer": "body",
+   "label": "table",
+   "prov": [
+    {
+     "page_no": 2,
+     "bbox": {
+      "l": 50.0,
+      "t": 596.0,
+      "r": 425.0,
+      "b": 356.0,
+      "coord_origin": "BOTTOMLEFT"
+     },
+     "charspan": [
+      0,
+      0
+     ]
+    }
+   ],
+   "captions": [
+    {
+     "$ref": "#/texts/10"
+    }
+   ],
+   "references": [],
+   "footnotes": [],
+   "data": {
+    "table_cells": [
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 596.0,
+       "r": 200.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 2,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Parameter",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 596.0,
+       "r": 250.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 2,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "Symbol",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 596.0,
+       "r": 385.0,
+       "b": 580.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 3,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 1,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 5,
+      "text": "Limits",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 596.0,
+       "r": 425.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 2,
+      "col_span": 1,
+      "start_row_offset_idx": 0,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "Unit",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 580.0,
+       "r": 295.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "Min",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 580.0,
+       "r": 340.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "Typ",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 580.0,
+       "r": 385.0,
+       "b": 564.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 1,
+      "end_row_offset_idx": 2,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "Max",
+      "column_header": true,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 564.0,
+       "r": 425.0,
+       "b": 548.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 6,
+      "start_row_offset_idx": 2,
+      "end_row_offset_idx": 3,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 6,
+      "text": "Read Mode",
+      "column_header": false,
+      "row_header": false,
+      "row_section": true,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 548.0,
+       "r": 200.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Clock Frequency",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 548.0,
+       "r": 250.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "fC",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 548.0,
+       "r": 295.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 548.0,
+       "r": 340.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 548.0,
+       "r": 385.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "104",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 548.0,
+       "r": 425.0,
+       "b": 532.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 3,
+      "end_row_offset_idx": 4,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "MHz",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 532.0,
+       "r": 200.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Clock High, Low Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 532.0,
+       "r": 250.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tCH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 532.0,
+       "r": 295.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "4.5",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 532.0,
+       "r": 340.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 532.0,
+       "r": 385.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 532.0,
+       "r": 425.0,
+       "b": 516.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 4,
+      "end_row_offset_idx": 5,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 516.0,
+       "r": 200.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 516.0,
+       "r": 250.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tCL",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 516.0,
+       "r": 295.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "4.5",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 516.0,
+       "r": 340.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 516.0,
+       "r": 385.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 516.0,
+       "r": 425.0,
+       "b": 500.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 5,
+      "end_row_offset_idx": 6,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 500.0,
+       "r": 200.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Data In Setup Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 500.0,
+       "r": 250.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tDVCH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 500.0,
+       "r": 295.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "2",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 500.0,
+       "r": 340.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 500.0,
+       "r": 385.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 500.0,
+       "r": 425.0,
+       "b": 484.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 6,
+      "end_row_offset_idx": 7,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 484.0,
+       "r": 200.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Data In Hold Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 484.0,
+       "r": 250.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tCHDX",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 484.0,
+       "r": 295.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "3",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 484.0,
+       "r": 340.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 484.0,
+       "r": 385.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 484.0,
+       "r": 425.0,
+       "b": 468.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 7,
+      "end_row_offset_idx": 8,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 468.0,
+       "r": 200.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "CS# Active Setup Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 468.0,
+       "r": 250.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tSLCH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 468.0,
+       "r": 295.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "5",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 468.0,
+       "r": 340.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 468.0,
+       "r": 385.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 468.0,
+       "r": 425.0,
+       "b": 452.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 8,
+      "end_row_offset_idx": 9,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 452.0,
+       "r": 200.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "CS# Active Hold Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 452.0,
+       "r": 250.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tCHSH",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 452.0,
+       "r": 295.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "5",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 452.0,
+       "r": 340.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 452.0,
+       "r": 385.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 452.0,
+       "r": 425.0,
+       "b": 436.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 9,
+      "end_row_offset_idx": 10,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 436.0,
+       "r": 200.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "CS# Deselect Time",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 436.0,
+       "r": 250.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tSHSL",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 436.0,
+       "r": 295.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "50",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 436.0,
+       "r": 340.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 436.0,
+       "r": 385.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 436.0,
+       "r": 425.0,
+       "b": 420.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 10,
+      "end_row_offset_idx": 11,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 420.0,
+       "r": 200.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "Clock Low to Output Valid",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 420.0,
+       "r": 250.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tCLQV",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 420.0,
+       "r": 295.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 420.0,
+       "r": 340.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 420.0,
+       "r": 385.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "6",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 420.0,
+       "r": 425.0,
+       "b": 404.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 11,
+      "end_row_offset_idx": 12,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "ns",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 388.0,
+       "r": 425.0,
+       "b": 372.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 6,
+      "start_row_offset_idx": 12,
+      "end_row_offset_idx": 13,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 6,
+      "text": "Power-up Timing",
+      "column_header": false,
+      "row_header": false,
+      "row_section": true,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 50.0,
+       "t": 372.0,
+       "r": 200.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 0,
+      "end_col_offset_idx": 1,
+      "text": "VCC(min) to CS# Low",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 200.0,
+       "t": 372.0,
+       "r": 250.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 1,
+      "end_col_offset_idx": 2,
+      "text": "tVSL",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 250.0,
+       "t": 372.0,
+       "r": 295.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 2,
+      "end_col_offset_idx": 3,
+      "text": "300",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 295.0,
+       "t": 372.0,
+       "r": 340.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 3,
+      "end_col_offset_idx": 4,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 340.0,
+       "t": 372.0,
+       "r": 385.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 4,
+      "end_col_offset_idx": 5,
+      "text": "",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     },
+     {
+      "bbox": {
+       "l": 385.0,
+       "t": 372.0,
+       "r": 425.0,
+       "b": 356.0,
+       "coord_origin": "BOTTOMLEFT"
+      },
+      "row_span": 1,
+      "col_span": 1,
+      "start_row_offset_idx": 13,
+      "end_row_offset_idx": 14,
+      "start_col_offset_idx": 5,
+      "end_col_offset_idx": 6,
+      "text": "µs",
+      "column_header": false,
+      "row_header": false,
+      "row_section": false,
+      "fillable": false
+     }
+    ],
+    "num_rows": 14,
+    "num_cols": 6,
+    "orientation": "rot_0",
+    "grid": [
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 596.0,
+        "r": 200.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 596.0,
+        "r": 250.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 596.0,
+        "r": 385.0,
+        "b": 580.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 3,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 5,
+       "text": "Limits",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 596.0,
+        "r": 385.0,
+        "b": 580.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 3,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 5,
+       "text": "Limits",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 596.0,
+        "r": 385.0,
+        "b": 580.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 3,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 1,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 5,
+       "text": "Limits",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 596.0,
+        "r": 425.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 596.0,
+        "r": 200.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Parameter",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 596.0,
+        "r": 250.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "Symbol",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 580.0,
+        "r": 295.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "Min",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 580.0,
+        "r": 340.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "Typ",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 580.0,
+        "r": 385.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 1,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "Max",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 596.0,
+        "r": 425.0,
+        "b": 564.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 2,
+       "col_span": 1,
+       "start_row_offset_idx": 0,
+       "end_row_offset_idx": 2,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "Unit",
+       "column_header": true,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 564.0,
+        "r": 425.0,
+        "b": 548.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 2,
+       "end_row_offset_idx": 3,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Read Mode",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 548.0,
+        "r": 200.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Clock Frequency",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 548.0,
+        "r": 250.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "fC",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 548.0,
+        "r": 295.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 548.0,
+        "r": 340.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 548.0,
+        "r": 385.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "104",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 548.0,
+        "r": 425.0,
+        "b": 532.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 3,
+       "end_row_offset_idx": 4,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "MHz",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 532.0,
+        "r": 200.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Clock High, Low Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 532.0,
+        "r": 250.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tCH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 532.0,
+        "r": 295.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "4.5",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 532.0,
+        "r": 340.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 532.0,
+        "r": 385.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 532.0,
+        "r": 425.0,
+        "b": 516.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 4,
+       "end_row_offset_idx": 5,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 516.0,
+        "r": 200.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 516.0,
+        "r": 250.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tCL",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 516.0,
+        "r": 295.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "4.5",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 516.0,
+        "r": 340.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 516.0,
+        "r": 385.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 516.0,
+        "r": 425.0,
+        "b": 500.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 5,
+       "end_row_offset_idx": 6,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 500.0,
+        "r": 200.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Data In Setup Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 500.0,
+        "r": 250.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tDVCH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 500.0,
+        "r": 295.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "2",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 500.0,
+        "r": 340.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 500.0,
+        "r": 385.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 500.0,
+        "r": 425.0,
+        "b": 484.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 6,
+       "end_row_offset_idx": 7,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 484.0,
+        "r": 200.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Data In Hold Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 484.0,
+        "r": 250.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tCHDX",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 484.0,
+        "r": 295.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "3",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 484.0,
+        "r": 340.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 484.0,
+        "r": 385.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 484.0,
+        "r": 425.0,
+        "b": 468.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 7,
+       "end_row_offset_idx": 8,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 468.0,
+        "r": 200.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "CS# Active Setup Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 468.0,
+        "r": 250.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tSLCH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 468.0,
+        "r": 295.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "5",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 468.0,
+        "r": 340.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 468.0,
+        "r": 385.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 468.0,
+        "r": 425.0,
+        "b": 452.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 8,
+       "end_row_offset_idx": 9,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 452.0,
+        "r": 200.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "CS# Active Hold Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 452.0,
+        "r": 250.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tCHSH",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 452.0,
+        "r": 295.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "5",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 452.0,
+        "r": 340.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 452.0,
+        "r": 385.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 452.0,
+        "r": 425.0,
+        "b": 436.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 9,
+       "end_row_offset_idx": 10,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 436.0,
+        "r": 200.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "CS# Deselect Time",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 436.0,
+        "r": 250.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tSHSL",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 436.0,
+        "r": 295.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "50",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 436.0,
+        "r": 340.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 436.0,
+        "r": 385.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 436.0,
+        "r": 425.0,
+        "b": 420.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 10,
+       "end_row_offset_idx": 11,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 420.0,
+        "r": 200.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "Clock Low to Output Valid",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 420.0,
+        "r": 250.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tCLQV",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 420.0,
+        "r": 295.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 420.0,
+        "r": 340.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 420.0,
+        "r": 385.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "6",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 420.0,
+        "r": 425.0,
+        "b": 404.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 11,
+       "end_row_offset_idx": 12,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "ns",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 388.0,
+        "r": 425.0,
+        "b": 372.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 6,
+       "start_row_offset_idx": 12,
+       "end_row_offset_idx": 13,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 6,
+       "text": "Power-up Timing",
+       "column_header": false,
+       "row_header": false,
+       "row_section": true,
+       "fillable": false
+      }
+     ],
+     [
+      {
+       "bbox": {
+        "l": 50.0,
+        "t": 372.0,
+        "r": 200.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 0,
+       "end_col_offset_idx": 1,
+       "text": "VCC(min) to CS# Low",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 200.0,
+        "t": 372.0,
+        "r": 250.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 1,
+       "end_col_offset_idx": 2,
+       "text": "tVSL",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 250.0,
+        "t": 372.0,
+        "r": 295.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 2,
+       "end_col_offset_idx": 3,
+       "text": "300",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 295.0,
+        "t": 372.0,
+        "r": 340.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 3,
+       "end_col_offset_idx": 4,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 340.0,
+        "t": 372.0,
+        "r": 385.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 4,
+       "end_col_offset_idx": 5,
+       "text": "",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      },
+      {
+       "bbox": {
+        "l": 385.0,
+        "t": 372.0,
+        "r": 425.0,
+        "b": 356.0,
+        "coord_origin": "BOTTOMLEFT"
+       },
+       "row_span": 1,
+       "col_span": 1,
+       "start_row_offset_idx": 13,
+       "end_row_offset_idx": 14,
+       "start_col_offset_idx": 5,
+       "end_col_offset_idx": 6,
+       "text": "µs",
+       "column_header": false,
+       "row_header": false,
+       "row_section": false,
+       "fillable": false
+      }
+     ]
+    ]
+   },
+   "annotations": []
+  }
+ ],
+ "key_value_items": [],
+ "form_items": [],
+ "pages": {
+  "1": {
+   "size": {
+    "width": 612.0,
+    "height": 792.0
+   },
+   "page_no": 1
+  },
+  "2": {
+   "size": {
+    "width": 612.0,
+    "height": 792.0
+   },
+   "page_no": 2
+  },
+  "3": {
+   "size": {
+    "width": 612.0,
+    "height": 792.0
+   },
+   "page_no": 3
+  }
+ }
+}

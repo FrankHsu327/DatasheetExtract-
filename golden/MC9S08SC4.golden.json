@@ -1,0 +1,197 @@
+{
+ "datasheet": "MC9S08SC4.pdf",
+ "part": "NXP (Freescale) MC9S08SC4",
+ "source": "Tables 3-2, 3-3 (p8) and 3-5, 3-6 (p10), hand-transcribed from rendered page images (not from any tool output).",
+ "parameters": [
+  {
+   "symbol": "VDD",
+   "conditions": "Supply voltage (absolute maximum)",
+   "min": "-0.3",
+   "max": "5.8",
+   "unit": "V"
+  },
+  {
+   "symbol": "IDD",
+   "value": "120",
+   "unit": "mA"
+  },
+  {
+   "symbol": "VIn",
+   "min": "-0.3",
+   "max": "VDD + 0.3",
+   "unit": "V"
+  },
+  {
+   "symbol": "ID",
+   "value": "± 25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "Tstg",
+   "min": "-55",
+   "max": "150",
+   "unit": "°C"
+  },
+  {
+   "symbol": "θJA",
+   "conditions": "Single-layer board, 16-pin TSSOP",
+   "value": "130",
+   "unit": "°C/W"
+  },
+  {
+   "symbol": "θJA",
+   "conditions": "Four-layer board, 16-pin TSSOP",
+   "value": "87",
+   "unit": "°C/W"
+  },
+  {
+   "symbol": "VHBM",
+   "min": "± 2000",
+   "unit": "V"
+  },
+  {
+   "symbol": "VCDM",
+   "min": "± 500",
+   "unit": "V"
+  },
+  {
+   "symbol": "ILAT",
+   "conditions": "TA = 125°C",
+   "min": "± 100",
+   "unit": "mA"
+  },
+  {
+   "symbol": "VDD",
+   "conditions": "Operating voltage",
+   "min": "4.5",
+   "max": "5.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VOH",
+   "conditions": "5 V, ILoad = -4 mA",
+   "min": "VDD - 1.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VOH",
+   "conditions": "5 V, ILoad = -2 mA",
+   "min": "VDD - 0.8",
+   "unit": "V"
+  },
+  {
+   "symbol": "IOHT",
+   "min": "0",
+   "max": "-100",
+   "unit": "mA"
+  },
+  {
+   "symbol": "VOL",
+   "conditions": "5 V, ILoad = 4 mA",
+   "max": "1.5",
+   "unit": "V"
+  },
+  {
+   "symbol": "VOL",
+   "conditions": "5 V, ILoad = 2 mA",
+   "max": "0.8",
+   "unit": "V"
+  },
+  {
+   "symbol": "IOLT",
+   "min": "0",
+   "max": "100",
+   "unit": "mA"
+  },
+  {
+   "symbol": "VIH",
+   "conditions": "5V",
+   "min": "0.65 x VDD",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIL",
+   "conditions": "5V",
+   "max": "0.35 x VDD",
+   "unit": "V"
+  },
+  {
+   "symbol": "Vhys",
+   "min": "0.06 x VDD",
+   "unit": "V"
+  },
+  {
+   "symbol": "|IIn|",
+   "typ": "0.1",
+   "max": "1",
+   "unit": "µA"
+  },
+  {
+   "symbol": "|IOZ|",
+   "conditions": "input/output port pins",
+   "typ": "0.1",
+   "max": "1",
+   "unit": "µA"
+  },
+  {
+   "symbol": "RPU,RPD",
+   "min": "17",
+   "typ": "37",
+   "max": "52",
+   "unit": "kΩ"
+  }
+ ],
+ "figures": [
+  {
+   "page": 3,
+   "label": "Figure 1-1",
+   "caption": "Figure 1-1. MC9S08SC4 Block Diagram"
+  },
+  {
+   "page": 12,
+   "label": "Figure 3-1",
+   "caption": "Figure 3-1. Typical VOL vs IOL, High Drive Strength"
+  },
+  {
+   "page": 12,
+   "label": "Figure 3-2",
+   "caption": "Figure 3-2. Typical VOL vs IOL, Low Drive Strength"
+  },
+  {
+   "page": 13,
+   "label": "Figure 3-3",
+   "caption": "Figure 3-3. Typical VDD – VOH vs IOH, High Drive Strength"
+  },
+  {
+   "page": 13,
+   "label": "Figure 3-4",
+   "caption": "Figure 3-4. Typical VDD – VOH vs IOH, Low Drive Strength"
+  },
+  {
+   "page": 15,
+   "label": "Figure 3-5",
+   "caption": "Figure 3-5. Typical Run IDD vs. Bus Frequency (VDD = 5V)"
+  },
+  {
+   "page": 15,
+   "label": "Figure 3-6",
+   "caption": "Figure 3-6. Typical Run IDD vs. Temperature (VDD = 5V; fbus = 8MHz) Run IDD (mA)"
+  },
+  {
+   "page": 16,
+   "label": "Figure 3-7",
+   "caption": "Figure 3-7. Typical Stop IDD vs. Temperature (VDD = 5V)"
+  },
+  {
+   "page": 19,
+   "label": "Figure 3-8",
+   "caption": "Figure 3-8. ADC Input Impedance Equivalency Diagram"
+  },
+  {
+   "page": 22,
+   "label": "Figure 3-9",
+   "caption": "Figure 3-9. Reset Timing"
+  }
+ ],
+ "figures_source": "pypdfium2 text layer, 'Figure N' caption lines (scripts/make_golden_figures.py), reviewed"
+}

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method Compare</title>
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #1d2330; --muted: #667085; --line: #e3e6eb;
+  --accent: #2f6fde; --accent-soft: rgba(47,111,222,.12); --warn: #b54708; --warn-soft: #fff4e5;
+  --bad: #c0362c; --good: #1a7f37; --hl: rgba(255,196,0,.35); --hl-line: #e0a800;
+  --box: rgba(47,111,222,.35); --table-box: rgba(26,127,55,.55);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171c; --panel: #1c2027; --ink: #e6e8ec; --muted: #98a0ad; --line: #2c323c;
+    --accent: #6ea0ff; --accent-soft: rgba(110,160,255,.16); --warn: #f0a050; --warn-soft: #3a2a14;
+    --bad: #ff7b72; --good: #56d364; --hl: rgba(255,196,0,.28); --box: rgba(110,160,255,.45); --table-box: rgba(86,211,100,.6);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14171c; --panel: #1c2027; --ink: #e6e8ec; --muted: #98a0ad; --line: #2c323c;
+  --accent: #6ea0ff; --accent-soft: rgba(110,160,255,.16); --warn: #f0a050; --warn-soft: #3a2a14;
+  --bad: #ff7b72; --good: #56d364; --hl: rgba(255,196,0,.28); --box: rgba(110,160,255,.45); --table-box: rgba(86,211,100,.6);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+       display: flex; flex-direction: column; }
+header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; border-bottom: 1px solid var(--line);
+         background: var(--panel); flex-wrap: wrap; }
+header h1 { font-size: 15px; margin: 0; font-weight: 600; }
+header .file { color: var(--muted); font-size: 13px; }
+.methods { display: flex; gap: 4px; flex-wrap: wrap; }
+.methods button, .tabs button { border: 1px solid var(--line); background: transparent; color: var(--ink);
+  padding: 4px 10px; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
+.methods button.on, .tabs button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.methods button .err { color: var(--bad); margin-left: 4px; }
+.methods button.on .err { color: #fff; }
+.spacer { flex: 1; }
+main { flex: 1; display: grid; grid-template-columns: 1fr 1fr; min-height: 0; }
+.pane { overflow: auto; min-height: 0; }
+#left { border-right: 1px solid var(--line); background: var(--panel); overflow-x: hidden; }
+.tabs { position: sticky; top: 0; z-index: 2; display: flex; gap: 4px; padding: 8px 12px; background: var(--panel);
+        border-bottom: 1px solid var(--line); align-items: center; }
+.tabs .info { margin-left: auto; color: var(--muted); font-size: 12px; }
+.page-sec { padding: 4px 16px 16px; border-bottom: 1px dashed var(--line); }
+.page-sec h3 { position: sticky; top: 45px; background: var(--panel); margin: 0 -16px; padding: 6px 16px; font-size: 12px;
+               color: var(--muted); text-transform: uppercase; letter-spacing: .04em; z-index: 1; }
+.item { padding: 4px 8px; margin: 2px -8px; border-radius: 6px; border-left: 3px solid transparent; cursor: pointer;
+        overflow-wrap: anywhere; overflow-x: auto; }
+.item:hover, .item.hl { background: var(--hl); border-left-color: var(--hl-line); }
+.item.heading { font-weight: 600; font-size: 15px; margin-top: 8px; }
+.item.caption { font-style: italic; color: var(--muted); }
+.item.footnote { font-size: 12px; color: var(--muted); }
+.item.list::before { content: "• "; color: var(--muted); }
+.item .tag { font-size: 11px; color: var(--muted); text-transform: uppercase; margin-right: 6px; }
+.item.picture { color: var(--muted); }
+.item .crop { width: 100%; max-width: 420px; margin: 6px 0; background-repeat: no-repeat; background-color: #fff;
+              border: 1px solid var(--line); border-radius: 4px; }
+.item .desc { color: var(--ink); font-size: 13px; background: var(--accent-soft); border-radius: 6px; padding: 6px 8px;
+              white-space: pre-wrap; }
+.item .desc.none { background: transparent; color: var(--muted); font-style: italic; padding: 0; }
+.item table { border-collapse: collapse; font-size: 12px; margin: 4px 0; max-width: 100%; }
+.item td, .item th { border: 1px solid var(--line); padding: 2px 6px; vertical-align: top; }
+.item th { background: var(--accent-soft); font-weight: 600; }
+.empty { color: var(--muted); font-style: italic; padding: 8px 0; }
+#right { background: var(--bg); padding: 12px; }
+.pg { position: relative; margin: 0 auto 14px; box-shadow: 0 1px 4px rgba(0,0,0,.18); background: #fff; overflow: hidden; }
+.pg img { display: block; width: 100%; height: auto; }
+.pg .no { position: absolute; top: 4px; right: 6px; font-size: 11px; color: #666; background: rgba(255,255,255,.85);
+          padding: 0 4px; border-radius: 3px; }
+.ov { position: absolute; border: 1px solid var(--box); pointer-events: none; }
+.ov.table { border: 1.5px solid var(--table-box); }
+.ov.hl { background: var(--hl); border: 2px solid var(--hl-line); }
+.params { width: 100%; border-collapse: collapse; font-size: 12px; }
+.params th, .params td { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: left; vertical-align: top; }
+.params th { position: sticky; top: 45px; background: var(--panel); }
+.params tr { cursor: pointer; }
+.params tr:hover td { background: var(--hl); }
+.flag { display: inline-block; font-size: 10px; background: var(--warn-soft); color: var(--warn); border-radius: 4px;
+        padding: 0 4px; margin: 1px 2px 0 0; }
+.summary { padding: 12px 16px; }
+.summary table { border-collapse: collapse; font-size: 13px; width: 100%; }
+.summary th, .summary td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; }
+.summary td.num { font-variant-numeric: tabular-nums; }
+.good { color: var(--good); } .bad { color: var(--bad); }
+.errbox { margin: 12px 16px; padding: 10px; border-radius: 6px; background: var(--warn-soft); color: var(--warn);
+          white-space: pre-wrap; font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+.toggle { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+@media (max-width: 760px) {
+  main { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+  #left { border-right: 0; border-bottom: 1px solid var(--line); }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Method Compare</h1><span class="file" id="file"></span>
+  <div class="methods" id="methods"></div>
+  <span class="spacer"></span>
+  <label class="toggle"><input type="checkbox" id="boxes" checked> boxes</label>
+  <label class="toggle"><input type="checkbox" id="sync" checked> sync scroll</label>
+</header>
+<main>
+  <section class="pane" id="left">
+    <div class="tabs">
+      <button data-tab="content" class="on">Content</button>
+      <button data-tab="params">Parameters</button>
+      <button data-tab="summary">Summary</button>
+      <span class="info" id="info"></span>
+    </div>
+    <div id="leftBody"></div>
+  </section>
+  <section class="pane" id="right"></section>
+</main>
+<script src="compare_data.js"></script>
+<script>
+(function () {
+  const D = window.COMPARE;
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  let mi = 0, tab = "content", syncing = false;
+  try { mi = Math.min(+localStorage.getItem("cmp.method") || 0, D.methods.length - 1); } catch (e) {}
+
+  $("#file").textContent = D.pdf + " · " + D.pages.length + " pages";
+
+  // ---- right: PDF pages
+  const right = $("#right");
+  right.innerHTML = D.pages.map(p =>
+    `<div class="pg" id="pg${p.page}" data-page="${p.page}" style="max-width:${Math.round(p.width * 1.4)}px">
+       <img loading="lazy" src="${p.img}" alt="page ${p.page}"><span class="no">p.${p.page}</span><div class="ovs"></div></div>`).join("");
+  const pageInfo = Object.fromEntries(D.pages.map(p => [p.page, p]));
+
+  function box(page, bbox, cls, key) {
+    const p = pageInfo[page]; if (!p || !bbox) return "";
+    const [l, t, r, b] = bbox;
+    return `<div class="ov ${cls}" data-key="${key}" style="left:${l / p.width * 100}%;top:${t / p.height * 100}%;` +
+           `width:${(r - l) / p.width * 100}%;height:${(b - t) / p.height * 100}%"></div>`;
+  }
+  function drawBoxes() {
+    const m = D.methods[mi];
+    document.querySelectorAll(".pg .ovs").forEach(el => el.innerHTML = "");
+    if (!$("#boxes").checked) return;
+    const by = {};
+    m.items.forEach((it, i) => { if (it.page) (by[it.page] ||= []).push(box(it.page, it.bbox, it.kind === "table" ? "table" : "", "i" + i)); });
+    for (const pg in by) { const el = $(`#pg${pg} .ovs`); if (el) el.innerHTML = by[pg].join(""); }
+  }
+
+  // ---- methods bar
+  function drawMethods() {
+    $("#methods").innerHTML = D.methods.map((m, i) =>
+      `<button data-i="${i}" class="${i === mi ? "on" : ""}" title="${esc(m.status)}">${esc(m.label)}` +
+      (m.status !== "ok" ? `<span class="err">!</span>` : "") + `</button>`).join("");
+  }
+  $("#methods").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    mi = +b.dataset.i; try { localStorage.setItem("cmp.method", mi); } catch (e) {}
+    render();
+  });
+  document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+    tab = b.dataset.tab;
+    document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
+    renderLeft();
+  }));
+  $("#boxes").addEventListener("change", drawBoxes);
+
+  // ---- left
+  function itemHtml(it, i) {
+    const k = it.kind;
+    if (k === "table") return `<div class="item table" data-key="i${i}" data-page="${it.page}">` +
+      (it.caption ? `<div class="caption">${esc(it.caption)}</div>` : "") + it.html + `</div>`;
+    if (k === "picture") return `<div class="item picture" data-key="i${i}" data-page="${it.page}">` +
+      `<span class="tag">picture${it.class ? " · " + esc(it.class) : ""}</span>${esc(it.caption || "")}` +
+      crop(it) + (it.description ? `<div class="desc"><span class="tag">description</span>${esc(it.description)}</div>`
+                                 : `<div class="desc none">no description</div>`) + `</div>`;
+    return `<div class="item ${k}" data-key="i${i}" data-page="${it.page}">` +
+      (["text", "heading", "list", "caption"].includes(k) ? "" : `<span class="tag">${k}</span>`) + esc(it.text) + `</div>`;
+  }
+  // 從頁面圖裁出 picture 範圍（各方法共用同一張頁面圖，裁切結果可直接比較）
+  function crop(it) {
+    const p = pageInfo[it.page]; if (!p || !it.bbox) return "";
+    let [l, t, r, b] = it.bbox; l = Math.max(0, l); t = Math.max(0, t); r = Math.min(p.width, r); b = Math.min(p.height, b);
+    const w = r - l, h = b - t; if (w <= 2 || h <= 2) return "";
+    const px = w < p.width ? l / (p.width - w) * 100 : 0, py = h < p.height ? t / (p.height - h) * 100 : 0;
+    return `<div class="crop" style="aspect-ratio:${w}/${h};background-image:url('${p.img}');` +
+           `background-size:${p.width / w * 100}% auto;background-position:${px}% ${py}%"></div>`;
+  }
+  function renderContent(m) {
+    const by = {};
+    m.items.forEach((it, i) => (by[it.page || 0] ||= []).push(itemHtml(it, i)));
+    return D.pages.map(p => `<div class="page-sec" id="ls${p.page}" data-page="${p.page}"><h3>Page ${p.page}</h3>` +
+      ((by[p.page] || []).join("") || `<div class="empty">nothing extracted on this page</div>`) + `</div>`).join("") +
+      (by[0] ? `<div class="page-sec"><h3>No page info</h3>${by[0].join("")}</div>` : "");
+  }
+  function renderParams(m) {
+    if (!m.parameters.length) return `<div class="summary empty">No parameters extracted.</div>`;
+    const v = x => x == null ? "" : esc(x);
+    return `<table class="params"><thead><tr><th>p.</th><th>Name</th><th>Symbol</th><th>Conditions</th><th>Min</th><th>Typ</th><th>Max</th><th>Unit</th></tr></thead><tbody>` +
+      m.parameters.map((p, i) => `<tr data-pk="${i}" data-page="${p.page ?? ""}"><td>${v(p.page)}</td><td>${v(p.name)}` +
+        (p.flags || []).map(f => `<br><span class="flag">${esc(f)}</span>`).join("") +
+        `</td><td>${v(p.symbol)}</td><td>${v(p.conditions)}</td><td>${v(p.min ?? (p.value && !p.typ && !p.max ? p.value : ""))}</td><td>${v(p.typ)}</td><td>${v(p.max)}</td><td>${v(p.unit)}</td></tr>`).join("") +
+      `</tbody></table>`;
+  }
+  function pct(x) { return x == null ? "—" : (x * 100).toFixed(1) + "%"; }
+  function renderSummary() {
+    const g = D.golden;
+    const rows = D.methods.map((m, i) => {
+      const s = m.stats || {}, ev = m.evaluate || {};
+      return `<tr><td><b>${esc(m.label)}</b></td><td class="${m.status === "ok" ? "good" : "bad"}">${esc(m.status)}</td>` +
+        `<td class="num">${m.elapsed_sec ?? "—"}</td><td class="num">${m.items.filter(x => x.kind === "table").length}</td>` +
+        `<td class="num">${g ? pct(ev.stage1?.fidelity) : "—"}</td><td class="num">${g ? pct(ev.recall) : "—"}</td>` +
+        `<td class="num">${ev.figures ? `${ev.figures.found}/${ev.figures.golden_count}` : "—"}</td>` +
+        `<td class="num">${ev.figures ? `${ev.figures.described}/${ev.figures.golden_count}` : "—"}</td>` +
+        `<td class="num">${s.parameters ?? "—"}</td><td class="num">${s.flagged ?? "—"}</td>` +
+        `<td class="num">${s.expected_missing ? s.expected_missing.length : "—"}</td></tr>`;
+    }).join("");
+    let html = `<div class="summary"><table><thead><tr><th>Method</th><th>Status</th><th>Time (s)</th><th>Tables</th>` +
+      `<th title="Golden symbol + all its values found in one table row (independent of extraction rules)">Stage 1 fidelity</th>` +
+      `<th title="Parameters extracted with correct values by the full pipeline">End-to-end recall</th>` +
+      `<th title="Golden figures (Figure N captions) matched to a picture on the same page">Figures found</th>` +
+      `<th title="Matched figures that carry the method's built-in description">Described</th>` +
+      `<th>Params</th><th>Flagged</th><th>Key params missing</th></tr></thead><tbody>${rows}</tbody></table>`;
+    if (!g) return html + `<p class="empty">No golden file for this PDF, so fidelity and recall aren't scored.</p></div>`;
+    html += `<p class="empty">Stage 1 fidelity: the golden symbol and all its values appear in one table row of the method's output. ` +
+      `End-to-end recall: the full pipeline (Stages 2–4) extracted it with the right values.</p>`;
+    // per-parameter matrix: S1 status / end-to-end status per method
+    const evs = D.methods.map(m => m.evaluate);
+    const mark = { ok: "✓", partial: "◐", missing: "✗" };
+    html += `<h3 style="font-size:14px;margin:16px 0 6px">Per golden parameter</h3><table><thead><tr><th>Symbol</th><th>Conditions</th>` +
+      D.methods.map(m => `<th>${esc(m.label)}</th>`).join("") + `</tr></thead><tbody>`;
+    (g.parameters || []).forEach((gp, k) => {
+      html += `<tr><td>${esc(gp.symbol)}</td><td>${esc(gp.conditions || "")}</td>` + evs.map(ev => {
+        if (!ev) return `<td>—</td>`;
+        const s1 = ev.stage1?.details?.[k]?.status, e2e = ev.details?.[k]?.status;
+        const cls = e2e === "ok" ? "good" : s1 === "ok" ? "" : "bad";
+        return `<td class="${cls}" title="Stage 1: ${s1}; end-to-end: ${e2e}">${mark[s1] || "?"} ${e2e === "ok" ? "✓" : esc(e2e || "")}</td>`;
+      }).join("") + `</tr>`;
+    });
+    html += `</tbody></table><p class="empty">Cell = Stage 1 mark (✓ found, ◐ symbol found but values incomplete, ✗ not found) then end-to-end status.</p>`;
+    D.methods.forEach(m => { if ((m.stats?.expected_missing || []).length)
+      html += `<p><b>${esc(m.label)}</b> missing key params: ${m.stats.expected_missing.map(esc).join(", ")}</p>`; });
+    return html + `</div>`;
+  }
+  function renderLeft() {
+    const m = D.methods[mi], body = $("#leftBody");
+    let html = m.error ? `<div class="errbox">${esc(m.error)}</div>` : "";
+    html += tab === "content" ? renderContent(m) : tab === "params" ? renderParams(m) : renderSummary();
+    body.innerHTML = html;
+    $("#info").textContent = tab === "summary" ? "" :
+      `${m.items.length} items · ${m.parameters.length} params` + (m.elapsed_sec ? ` · ${m.elapsed_sec}s` : "");
+  }
+  function render() { drawMethods(); renderLeft(); drawBoxes(); }
+
+  // ---- hover / click linking
+  const leftPane = $("#left");
+  leftPane.addEventListener("mouseover", e => {
+    const it = e.target.closest(".item"); document.querySelectorAll(".ov.hl").forEach(x => x.classList.remove("hl"));
+    if (it) { const ov = right.querySelector(`.ov[data-key="${it.dataset.key}"]`); if (ov) ov.classList.add("hl"); }
+  });
+  leftPane.addEventListener("click", e => {
+    const it = e.target.closest(".item"); if (it && it.dataset.page) scrollRightTo(+it.dataset.page, it.dataset.key);
+    const tr = e.target.closest("tr[data-pk]");
+    if (tr) {
+      const p = D.methods[mi].parameters[+tr.dataset.pk]; if (!p.page) return;
+      right.querySelectorAll(".ov.param").forEach(x => x.remove());
+      const host = $(`#pg${p.page} .ovs`); if (host && p.bbox) host.insertAdjacentHTML("beforeend", box(p.page, p.bbox, "hl param", "p"));
+      scrollRightTo(p.page, "p");
+    }
+  });
+  function scrollRightTo(page, key) {
+    const pg = $(`#pg${page}`); if (!pg) return;
+    const ov = key && pg.querySelector(`.ov[data-key="${key}"]`);
+    syncing = true;
+    const target = ov ? ov.offsetTop + pg.offsetTop - 80 : pg.offsetTop - 8;
+    right.scrollTo({ top: target, behavior: "smooth" });
+    setTimeout(() => syncing = false, 600);
+  }
+
+  // ---- page-level scroll sync
+  function topPage(container, sel) {
+    const top = container.getBoundingClientRect().top + 60;
+    let best = null;
+    container.querySelectorAll(sel).forEach(el => { if (el.getBoundingClientRect().top <= top) best = el; });
+    return best ? +best.dataset.page : 1;
+  }
+  right.addEventListener("scroll", () => {
+    if (syncing || !$("#sync").checked || tab !== "content") return;
+    const p = topPage(right, ".pg"); const sec = $(`#ls${p}`);
+    if (sec && topPage(leftPane, ".page-sec[data-page]") !== p) { syncing = true; leftPane.scrollTop = sec.offsetTop - 45; setTimeout(() => syncing = false, 80); }
+  }, { passive: true });
+  leftPane.addEventListener("scroll", () => {
+    if (syncing || !$("#sync").checked || tab !== "content") return;
+    const p = topPage(leftPane, ".page-sec[data-page]"); const pg = $(`#pg${p}`);
+    if (pg && topPage(right, ".pg") !== p) { syncing = true; right.scrollTop = pg.offsetTop - 8; setTimeout(() => syncing = false, 80); }
+  }, { passive: true });
+
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Datasheets used for development and scoring (PDFs are NOT in the repository).
+All are public datasheets: search the MPN on the manufacturer's website and save the PDF
+into datasheet\ under the local file name below, so the scripts and golden files find it.
+
+Manufacturer        MPN                 Local file name (datasheet\)                                                   Golden file
+------------------  ------------------  -----------------------------------------------------------------------------  -----------------------------------
+Winbond             W25Q128JV           0900766b81703faf.pdf                                                           golden\W25Q128JV.golden.json
+Richtek             RT3624LE            DS3624LE-00.pdf                                                                golden\DS3624LE-00.golden.json
+Infineon            CCG6 (EZ-PD CCG6_CFP, USB-C PD controller)
+                                        infineon-ez-pd-ccg6-cfp-usb-c-power-delivery-controller-datasheet-en.pdf       golden\CCG6.golden.json
+NXP (Freescale)     MC9S08SC4           MC9S08SC4.pdf                                                                  golden\MC9S08SC4.golden.json
+
+Notes
+- The golden files were hand-transcribed from these exact documents; a different revision may
+  move tables/figures to other pages and lower the scores.
+- samples\DS325Q32.pdf is a synthetic test PDF; tests regenerate it with scripts\make_sample.py.

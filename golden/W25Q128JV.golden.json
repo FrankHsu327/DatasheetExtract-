@@ -1,0 +1,596 @@
+{
+ "datasheet": "W25Q128JV.pdf",
+ "source": "pdftotext -layout, pages 61-66 (sections 9.1-9.6), hand-transcribed",
+ "parameters": [
+  {
+   "symbol": "VCC",
+   "min": "-0.6",
+   "max": "4.6",
+   "unit": "V"
+  },
+  {
+   "symbol": "TSTG",
+   "min": "-65",
+   "max": "150",
+   "unit": "°C"
+  },
+  {
+   "symbol": "VESD",
+   "conditions": "Human Body Model",
+   "min": "-2000",
+   "max": "2000",
+   "unit": "V"
+  },
+  {
+   "symbol": "VCC",
+   "conditions": "FR = 133MHz, fR = 50MHz",
+   "min": "3.0",
+   "max": "3.6",
+   "unit": "V"
+  },
+  {
+   "symbol": "VCC",
+   "conditions": "FR = 104MHz, fR = 50MHz",
+   "min": "2.7",
+   "max": "3.0",
+   "unit": "V"
+  },
+  {
+   "symbol": "TA",
+   "conditions": "Industrial",
+   "min": "-40",
+   "max": "85",
+   "unit": "°C"
+  },
+  {
+   "symbol": "TA",
+   "conditions": "Industrial Plus",
+   "min": "-40",
+   "max": "105",
+   "unit": "°C"
+  },
+  {
+   "symbol": "tVSL",
+   "min": "20",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tPUW",
+   "min": "5",
+   "unit": "ms"
+  },
+  {
+   "symbol": "VWI",
+   "min": "1.0",
+   "max": "2.0",
+   "unit": "V"
+  },
+  {
+   "symbol": "CIN",
+   "max": "6",
+   "unit": "pF"
+  },
+  {
+   "symbol": "Cout",
+   "max": "8",
+   "unit": "pF"
+  },
+  {
+   "symbol": "ILI",
+   "max": "±2",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ILO",
+   "max": "±2",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ICC1",
+   "typ": "10",
+   "max": "60",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ICC2",
+   "typ": "1",
+   "max": "20",
+   "unit": "µA"
+  },
+  {
+   "symbol": "ICC3",
+   "typ": "8",
+   "max": "15",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC3",
+   "typ": "10",
+   "max": "18",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC3",
+   "typ": "12",
+   "max": "20",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC4",
+   "typ": "20",
+   "max": "25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC5",
+   "typ": "20",
+   "max": "25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC6",
+   "typ": "20",
+   "max": "25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "ICC7",
+   "typ": "20",
+   "max": "25",
+   "unit": "mA"
+  },
+  {
+   "symbol": "VIL",
+   "min": "-0.5",
+   "max": "VCC x 0.3",
+   "unit": "V"
+  },
+  {
+   "symbol": "VIH",
+   "min": "VCC x 0.7",
+   "max": "VCC + 0.4",
+   "unit": "V"
+  },
+  {
+   "symbol": "VOL",
+   "conditions": "IOL = 100 µA",
+   "max": "0.2",
+   "unit": "V"
+  },
+  {
+   "symbol": "VOH",
+   "conditions": "IOH = -100 µA",
+   "min": "VCC - 0.2",
+   "unit": "V"
+  },
+  {
+   "symbol": "CL",
+   "max": "30",
+   "unit": "pF"
+  },
+  {
+   "symbol": "FR",
+   "max": "133",
+   "unit": "MHz"
+  },
+  {
+   "symbol": "FR",
+   "max": "104",
+   "unit": "MHz"
+  },
+  {
+   "symbol": "fR",
+   "max": "50",
+   "unit": "MHz"
+  },
+  {
+   "symbol": "tCLH",
+   "min": "45% PC",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCLCH",
+   "min": "0.1",
+   "unit": "V/ns"
+  },
+  {
+   "symbol": "tCHCL",
+   "min": "0.1",
+   "unit": "V/ns"
+  },
+  {
+   "symbol": "tSLCH",
+   "min": "3",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCHSL",
+   "min": "3",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tDVCH",
+   "min": "1",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCHDX",
+   "min": "2",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCHSH",
+   "min": "3",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tSHCH",
+   "min": "3",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tSHSL1",
+   "min": "10",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tSHSL2",
+   "min": "50",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tSHQZ",
+   "max": "7",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCLQV",
+   "max": "6",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tCLQX",
+   "min": "1.5",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tWHSL",
+   "min": "20",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tSHWL",
+   "min": "100",
+   "unit": "ns"
+  },
+  {
+   "symbol": "tDP",
+   "max": "3",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tRES1",
+   "max": "3",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tRES2",
+   "max": "1.8",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tSUS",
+   "max": "20",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tRST",
+   "max": "30",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tRESET",
+   "min": "1",
+   "unit": "µs"
+  },
+  {
+   "symbol": "tW",
+   "typ": "10",
+   "max": "15",
+   "unit": "ms"
+  },
+  {
+   "symbol": "tPP",
+   "typ": "0.4",
+   "max": "3",
+   "unit": "ms"
+  },
+  {
+   "symbol": "tSE",
+   "typ": "45",
+   "max": "400",
+   "unit": "ms"
+  },
+  {
+   "symbol": "tBE1",
+   "typ": "120",
+   "max": "1600",
+   "unit": "ms"
+  },
+  {
+   "symbol": "tBE2",
+   "typ": "150",
+   "max": "2000",
+   "unit": "ms"
+  },
+  {
+   "symbol": "tCE",
+   "typ": "40",
+   "max": "200",
+   "unit": "s"
+  }
+ ],
+ "figures": [
+  {
+   "page": 6,
+   "label": "Figure 1a",
+   "caption": "Figure 1a. W25Q128JV Pin Assignments, 8-pin SOIC 208-mil (Package Code S)"
+  },
+  {
+   "page": 6,
+   "label": "Figure 1b",
+   "caption": "Figure 1b. W25Q128JV Pad Assignments, 8-pad WSON 6x5-mm/ 8x6-mm (Package Code P/E)"
+  },
+  {
+   "page": 7,
+   "label": "Figure 1c",
+   "caption": "Figure 1c. W25Q128JV Pin Assignments, 16-pin SOIC 300-mil (Package Code F)"
+  },
+  {
+   "page": 8,
+   "label": "Figure 1d",
+   "caption": "Figure 1d. W25Q128JV Ball Assignments, 24-ball TFBGA 8x6-mm (Package Code B/C)"
+  },
+  {
+   "page": 9,
+   "label": "Figure 1e",
+   "caption": "Figure 1e. W25Q128JV Ball Assignments, 24-ball WLCSP (Package Code Y)"
+  },
+  {
+   "page": 11,
+   "label": "Figure 2",
+   "caption": "Figure 2. W25Q128JV Serial Flash Memory Block Diagram"
+  },
+  {
+   "page": 14,
+   "label": "Figure 4a",
+   "caption": "Figure 4a. Status Register-1"
+  },
+  {
+   "page": 17,
+   "label": "Figure 4b",
+   "caption": "Figure 4b. Status Register-2"
+  },
+  {
+   "page": 18,
+   "label": "Figure 4c",
+   "caption": "Figure 4c. Status Register-3"
+  },
+  {
+   "page": 21,
+   "label": "Figure 4d",
+   "caption": "Figure 4d. Individual Block/Sector Locks"
+  },
+  {
+   "page": 25,
+   "label": "Figure 5",
+   "caption": "Figure 5. Write Enable Instruction for SPI Mode"
+  },
+  {
+   "page": 25,
+   "label": "Figure 6",
+   "caption": "Figure 6. Write Enable for Volatile Status Register Instruction for SPI Mode"
+  },
+  {
+   "page": 26,
+   "label": "Figure 7",
+   "caption": "Figure 7. Write Disable Instruction for SPI Mode"
+  },
+  {
+   "page": 26,
+   "label": "Figure 8a",
+   "caption": "Figure 8a. Read Status Register Instruction"
+  },
+  {
+   "page": 27,
+   "label": "Figure 9a",
+   "caption": "Figure 9a. Write Status Register-1/2/3 Instruction"
+  },
+  {
+   "page": 28,
+   "label": "Figure 9b",
+   "caption": "Figure 9b. Write Status Register-1/2 Instruction"
+  },
+  {
+   "page": 29,
+   "label": "Figure 14",
+   "caption": "Figure 14. Read Data Instruction"
+  },
+  {
+   "page": 30,
+   "label": "Figure 16a",
+   "caption": "Figure 16a. Fast Read Instruction"
+  },
+  {
+   "page": 31,
+   "label": "Figure 18",
+   "caption": "Figure 18. Fast Read Dual Output Instruction"
+  },
+  {
+   "page": 32,
+   "label": "Figure 20",
+   "caption": "Figure 20. Fast Read Quad Output Instruction"
+  },
+  {
+   "page": 33,
+   "label": "Figure 22a",
+   "caption": "Figure 22a. Fast Read Dual I/O Instruction (M7-M0 should be set to Fxh)"
+  },
+  {
+   "page": 34,
+   "label": "Figure 24a",
+   "caption": "Figure 24a. Fast Read Quad I/O Instruction (M7-M0 should be set to Fxh)"
+  },
+  {
+   "page": 36,
+   "label": "Figure 28",
+   "caption": "Figure 28. Set Burst with Wrap Instruction"
+  },
+  {
+   "page": 37,
+   "label": "Figure 29a",
+   "caption": "Figure 29a. Page Program Instruction"
+  },
+  {
+   "page": 38,
+   "label": "Figure 30",
+   "caption": "Figure 30. Quad Input Page Program Instruction"
+  },
+  {
+   "page": 39,
+   "label": "Figure 31a",
+   "caption": "Figure 31a. Sector Erase Instruction"
+  },
+  {
+   "page": 40,
+   "label": "Figure 32a",
+   "caption": "Figure 32a. 32KB Block Erase Instruction"
+  },
+  {
+   "page": 41,
+   "label": "Figure 33a",
+   "caption": "Figure 33a. 64KB Block Erase Instruction"
+  },
+  {
+   "page": 42,
+   "label": "Figure 34",
+   "caption": "Figure 34. Chip Erase Instruction Sequence Diagram"
+  },
+  {
+   "page": 43,
+   "label": "Figure 35a",
+   "caption": "Figure 35a. Erase/Program Suspend Instruction"
+  },
+  {
+   "page": 44,
+   "label": "Figure 36a",
+   "caption": "Figure 36a. Erase/Program Resume Instruction"
+  },
+  {
+   "page": 45,
+   "label": "Figure 37a",
+   "caption": "Figure 37a."
+  },
+  {
+   "page": 46,
+   "label": "Figure 38a",
+   "caption": "Figure 38a. Release Power-down Instruction"
+  },
+  {
+   "page": 46,
+   "label": "Figure 38c",
+   "caption": "Figure 38c. Release Power-down / Device ID Instruction"
+  },
+  {
+   "page": 47,
+   "label": "Figure 39",
+   "caption": "Figure 39. Read Manufacturer / Device ID Instruction"
+  },
+  {
+   "page": 48,
+   "label": "Figure 40",
+   "caption": "Figure 40. Read Manufacturer / Device ID Dual I/O Instruction"
+  },
+  {
+   "page": 49,
+   "label": "Figure 41",
+   "caption": "Figure 41. Read Manufacturer / Device ID Quad I/O Instruction"
+  },
+  {
+   "page": 50,
+   "label": "Figure 42",
+   "caption": "Figure 42. Read Unique ID Number Instruction"
+  },
+  {
+   "page": 51,
+   "label": "Figure 43a",
+   "caption": "Figure 43a. Read JEDEC ID Instruction"
+  },
+  {
+   "page": 52,
+   "label": "Figure 44",
+   "caption": "Figure 44. Read SFDP Register Instruction Sequence Diagram"
+  },
+  {
+   "page": 53,
+   "label": "Figure 45",
+   "caption": "Figure 45. Erase Security Registers Instruction"
+  },
+  {
+   "page": 54,
+   "label": "Figure 46",
+   "caption": "Figure 46. Program Security Registers Instruction"
+  },
+  {
+   "page": 55,
+   "label": "Figure 47",
+   "caption": "Figure 47. Read Security Registers Instruction"
+  },
+  {
+   "page": 56,
+   "label": "Figure 53a",
+   "caption": "Figure 53a. Individual Block/Sector Lock Instruction"
+  },
+  {
+   "page": 57,
+   "label": "Figure 54a",
+   "caption": "Figure 54a. Individual Block Unlock Instruction"
+  },
+  {
+   "page": 58,
+   "label": "Figure 55a",
+   "caption": "Figure 55a. Read Block Lock Instruction"
+  },
+  {
+   "page": 59,
+   "label": "Figure 56",
+   "caption": "Figure 56. Global Block Lock Instruction for SPI Mode"
+  },
+  {
+   "page": 59,
+   "label": "Figure 57",
+   "caption": "Figure 57. Global Block Unlock Instruction for SPI Mode"
+  },
+  {
+   "page": 60,
+   "label": "Figure 58a",
+   "caption": "Figure 58a. Enable Reset and Reset Instruction Sequence"
+  },
+  {
+   "page": 62,
+   "label": "Figure 58a",
+   "caption": "Figure 58a. Power-up Timing and Voltage Levels"
+  },
+  {
+   "page": 62,
+   "label": "Figure 58b",
+   "caption": "Figure 58b. Power-up, Power-Down Requirement"
+  },
+  {
+   "page": 64,
+   "label": "Figure 59",
+   "caption": "Figure 59. AC Measurement I/O Waveform"
+  }
+ ],
+ "figures_source": "pypdfium2 text layer, 'Figure N' caption lines (scripts/make_golden_figures.py), reviewed"
+}

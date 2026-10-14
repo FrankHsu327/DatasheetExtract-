@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+out/
+debug/
+.venv/
+.venv-*/
+*.egg-info/
+# 模型權重、獨立 Python、log（由 scripts/setup_envs.ps1、download_models.ps1 產生）
+models/
+tools/
+logs/
+wheels/
+dist/
+probe_*.log
+find_py.log
+# Datasheet PDF 不進版控（清單見 DATASHEETS.txt）；samples/DS325Q32.pdf 由測試自動重建
+datasheets/
+datasheet/
+*.pdf
+# 本機工具設定
+.claude/
