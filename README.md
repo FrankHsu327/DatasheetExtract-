@@ -5,7 +5,8 @@ Stage 1 是 hybrid：Docling 找表格與圖的位置、pdfplumber 從 PDF 文�
 之後是逐表抽取、覆蓋率追蹤、雙路比對與人工審核頁，用來解決「表格/圖表讀取會遺漏」的問題。
 
 架構與盲點分析請看 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)；
-為什麼選 hybrid（與 pdfplumber、Docling 單獨使用在 4 份 datasheet 上的比較，結果封存在 `out/compare/`）請看 [`docs/METHOD_COMPARISON.md`](docs/METHOD_COMPARISON.md)；
+為什麼選 hybrid（與 pdfplumber、Docling 單獨使用在 4 份 datasheet 上的比較，結果封存在 `out/compare/`；`out/` 不在 repo，比較結果與 hybrid 結果打包在 Release
+[`compare-results-v1`](https://github.com/FrankHsu327/DatasheetExtract-/releases/tag/compare-results-v1)，在專案根目錄解壓後開 `out/compare/index.html`、`out/review/index.html`）請看 [`docs/METHOD_COMPARISON.md`](docs/METHOD_COMPARISON.md)；
 搬到內網機器請看 [`docs/MIGRATION.md`](docs/MIGRATION.md)；待辦請看 [`docs/BACKLOG.md`](docs/BACKLOG.md)。
 
 ## 使用
