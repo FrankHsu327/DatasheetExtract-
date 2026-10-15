@@ -22,7 +22,7 @@ function Get-Asset($name) {
   $dst = Join-Path $dl $name
   if (-not (Test-Path $dst)) {
     if ($From) { throw "missing $dst" }
-    "download $name"
+    Write-Host "download $name"   # Write-Host：不能進 pipeline，否則會混進回傳值
     Invoke-WebRequest "$base/$name" -OutFile $dst -UseBasicParsing
   }
   return $dst
