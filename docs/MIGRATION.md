@@ -88,4 +88,7 @@ models/hf/         HF_HOME（目前沒用到，保留）
 `fetch_models.ps1 -From dist\github_release`（本機分割檔）在空資料夾還原：所有分割檔與合併後 zip 的 SHA-256 相符，
 解出的 `models\docling` 每個檔案與 bundle 的 CHECKSUMS 一致（2026-10-14）。
 
-尚未驗證：從 GitHub Release 實際下載（上傳後）；在另一台機器上實際跑一次（只能在內網機器上做）。
+從 GitHub Release `models-v1` 實際下載（`fetch_models.ps1`，空資料夾）：4 個分割檔 SHA-256 相符，
+解出 44 個檔案與本機 `models\docling` 完全一致（2026-10-15）。
+
+尚未驗證：在另一台機器上實際跑一次（只能在內網機器上做）。
